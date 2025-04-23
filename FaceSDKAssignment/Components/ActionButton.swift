@@ -10,7 +10,7 @@ import SwiftUI
 struct ActionButton: View {
   let text: String
   let isPhoto : Bool
-  @Binding var isActionDone : Bool
+  var isActionDone : Bool
     var body: some View {
       ZStack{
         RoundedRectangle(cornerRadius: 20)
@@ -22,7 +22,7 @@ struct ActionButton: View {
             Image(systemName: "checkmark.circle.fill")
               .font(.system(size: 40, weight: .bold, design: .default))
               .foregroundStyle(Color.green)
-            Text("Photo Captured")
+            Text("Photo Saved")
               .foregroundStyle(Color.green)
               .padding()
           } else {
@@ -37,5 +37,5 @@ struct ActionButton: View {
 }
 
 #Preview {
-  ActionButton(text: "Photo", isPhoto: true, isActionDone: .constant(false))
+  ActionButton(text: "Photo", isPhoto: true, isActionDone: (false))
 }

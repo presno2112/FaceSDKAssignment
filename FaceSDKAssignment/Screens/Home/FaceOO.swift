@@ -73,31 +73,35 @@ class FaceOO {
     }
   }
   
-  func matchFace(){
-    guard let capturedImage = faceCaptureResponse?.image?.image,
-          let selectedImage = selectedImage else {
-      print("Both images are required for face matching.")
-      return
-    }
-    
-    let images = [
-      MatchFacesImage(image: capturedImage, imageType: .live),
-      MatchFacesImage(image: selectedImage, imageType: .live)
-    ]
-    
-    let request = MatchFacesRequest(images: images)
-    
-    FaceSDK.service.matchFaces(request, completion: { response in
-      DispatchQueue.main.async {
-        self.matchFaceResponse = response
-        if let similarity = response.results.first?.similarity?.doubleValue {
-          print("Similarity Score: \(similarity)")
-        } else {
-          print("Failed to compute similarity.")
-        }
+  func matchFace(completion: @escaping (Double?) -> Void) {
+      guard let capturedImage = faceCaptureResponse?.image?.image,
+            let selectedImage = selectedImage else {
+          print("Both images are required for face matching.")
+          completion(nil)
+          return
       }
-    })
+
+      let images = [
+          MatchFacesImage(image: capturedImage, imageType: .live),
+          MatchFacesImage(image: selectedImage, imageType: .live)
+      ]
+
+      let request = MatchFacesRequest(images: images)
+
+      FaceSDK.service.matchFaces(request, completion: { response in
+          DispatchQueue.main.async {
+              self.matchFaceResponse = response
+              if let similarity = response.results.first?.similarity?.doubleValue {
+                  print("Similarity Score: \(similarity)")
+                  completion(similarity)
+              } else {
+                  print("Failed to compute similarity.")
+                  completion(nil)
+              }
+          }
+      })
   }
+
   
   func showLiveness() {
     guard let presenter = UIApplication.shared.rootViewController else {

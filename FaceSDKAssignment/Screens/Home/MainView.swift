@@ -9,9 +9,6 @@ import SwiftUI
 import PhotosUI
 
 struct MainView: View {
-  @State private var isSecondButtonEnabled = false
-  @State private var isFirstButtonGreen = false
-  @State private var isSecondButtonGreen = false
   @State private var showPhotoPicker = false
   @State private var pickerItem: PhotosPickerItem?
   @State private var face = FaceOO()
@@ -20,56 +17,61 @@ struct MainView: View {
   
   var body: some View {
     if showResults{
-      ResultsView(targetPercentage: 75.0)
+      ResultsView(face: $face, showResults: $showResults, targetPercentage: resultPercentage)
     }
     else{
       VStack {
         HStack {
           Button {
             face.showFaceCapture()
-            isFirstButtonGreen = true
-            isSecondButtonEnabled = true
           } label: {
-            ActionButton(text: "Take a picture!", isPhoto: false, isActionDone: $isFirstButtonGreen)
+            ActionButton(text: "Take a picture!", isPhoto: false, isActionDone: face.faceCaptureResponse != nil)
           }
-          
+          .disabled(face.faceCaptureResponse != nil)
+
           Button {
-            if !isSecondButtonEnabled {
-              isSecondButtonEnabled = true
-              isFirstButtonGreen = true
-              
-            } else {
-              showPhotoPicker = true
-              isSecondButtonGreen = true
-            }
-          }label: {
-            ActionButton(text: "Choose a picture!", isPhoto: true, isActionDone : $isSecondButtonGreen)
+            showPhotoPicker = true
+          } label: {
+            ActionButton(text: "Choose a picture!", isPhoto: true, isActionDone: face.selectedImage != nil)
           }
-          .disabled(!isSecondButtonEnabled)
-          .opacity(isSecondButtonEnabled ? 1.0 : 0.5)
+          .disabled(face.faceCaptureResponse == nil || face.selectedImage != nil)
+          .opacity(face.faceCaptureResponse != nil ? 1.0 : 0.5)
         }
         .padding()
         
         
         Button {
-          isSecondButtonEnabled = false
-          isFirstButtonGreen = false
-          isSecondButtonGreen = false
           face.selectedImage = nil
           face.faceCaptureResponse = nil
           
         }label: {
-          Text("Start Over")
+          ZStack{
+            RoundedRectangle(cornerRadius: 20)
+              .frame(width: 150, height: 50)
+            Text("Start Over")
+              .foregroundStyle(.white)
+          }
         }
-        .padding(.top, 80)
+        .padding()
         Button {
-          face.matchFace()
-          resultPercentage = 95.0
-          showResults = true
-          
-        }label: {
-          Text("Check Results")
+          face.matchFace { similarity in
+            if let similarity = similarity {
+              resultPercentage = similarity * 100
+              showResults = true
+            } else {
+              print("No similarity score available.")
+            }
+          }
+        } label: {
+          ZStack{
+            RoundedRectangle(cornerRadius: 20)
+              .frame(width: 150, height: 50)
+              .foregroundStyle(face.selectedImage == nil ? .gray : .green)
+            Text("Check results")
+              .foregroundStyle(.white)
+          }
         }
+        .disabled(face.selectedImage == nil)
       }
       .photosPicker(isPresented: $showPhotoPicker, selection: $pickerItem)
       .onChange(of: pickerItem) {
