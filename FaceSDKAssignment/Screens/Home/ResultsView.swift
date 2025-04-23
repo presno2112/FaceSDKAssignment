@@ -14,7 +14,7 @@ struct ResultsView: View {
 
   var body: some View {
     VStack(spacing: 32) {
-      Text("Compatibility between these images:")
+      Text("Face Match between these images:")
         .font(.title)
         .fontWeight(.semibold)
         .multilineTextAlignment(.center)
