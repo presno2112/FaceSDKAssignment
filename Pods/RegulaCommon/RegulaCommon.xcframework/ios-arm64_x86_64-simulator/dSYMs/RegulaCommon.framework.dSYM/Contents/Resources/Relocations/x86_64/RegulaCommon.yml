@@ -1,0 +1,659 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/administratorregula/Library/Developer/Xcode/DerivedData/RegulaCommon-cbkkxnzazdqhgsackisxipvhdshg/Build/Intermediates.noindex/ArchiveIntermediates/RegulaCommon/InstallationBuildProductsLocation/Library/Frameworks/RegulaCommon.framework/RegulaCommon'
+relocations:
+  - { offset: 0x7A938, size: 0x8, addend: 0x0, symName: _RegulaCommonVersionString, symObjAddr: 0x0, symBinAddr: 0x1AB30, symSize: 0x0 }
+  - { offset: 0x7A96D, size: 0x8, addend: 0x0, symName: _RegulaCommonVersionNumber, symObjAddr: 0x38, symBinAddr: 0x1AB68, symSize: 0x0 }
+  - { offset: 0x7A9AA, size: 0x8, addend: 0x0, symName: '+[RGLCCameraPreviewView layerClass]', symObjAddr: 0x0, symBinAddr: 0x1B80, symSize: 0x11 }
+  - { offset: 0x7A9ED, size: 0x8, addend: 0x0, symName: '+[RGLCCameraPreviewView layerClass]', symObjAddr: 0x0, symBinAddr: 0x1B80, symSize: 0x11 }
+  - { offset: 0x7AA20, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPreviewView previewLayer]', symObjAddr: 0x11, symBinAddr: 0x1B91, symSize: 0x12 }
+  - { offset: 0x7AA6A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPreviewView session]', symObjAddr: 0x23, symBinAddr: 0x1BA3, symSize: 0x50 }
+  - { offset: 0x7AACD, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPreviewView setSession:]', symObjAddr: 0x73, symBinAddr: 0x1BF3, symSize: 0x69 }
+  - { offset: 0x7ABCF, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice init]', symObjAddr: 0x0, symBinAddr: 0x1C5C, symSize: 0x110 }
+  - { offset: 0x7AD87, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice init]', symObjAddr: 0x0, symBinAddr: 0x1C5C, symSize: 0x110 }
+  - { offset: 0x7AE1E, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice captureDeviceFormat]', symObjAddr: 0x110, symBinAddr: 0x1D6C, symSize: 0x31 }
+  - { offset: 0x7AE76, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice depthDataFormat]', symObjAddr: 0x141, symBinAddr: 0x1D9D, symSize: 0x31 }
+  - { offset: 0x7AECE, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice captureDeviceFormatForPosition:]', symObjAddr: 0x172, symBinAddr: 0x1DCE, symSize: 0x41 }
+  - { offset: 0x7AF21, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice depthDataFormatForPosition:]', symObjAddr: 0x1B3, symBinAddr: 0x1E0F, symSize: 0x41 }
+  - { offset: 0x7AF74, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice updatePosition:]', symObjAddr: 0x1F4, symBinAddr: 0x1E50, symSize: 0x117 }
+  - { offset: 0x7B081, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice deviceForPosition:]', symObjAddr: 0x30B, symBinAddr: 0x1F67, symSize: 0x41 }
+  - { offset: 0x7B0D4, size: 0x8, addend: 0x0, symName: '+[RGLCCameraDevice metadataForDevice:]', symObjAddr: 0x34C, symBinAddr: 0x1FA8, symSize: 0x2F8 }
+  - { offset: 0x7B2DE, size: 0x8, addend: 0x0, symName: '+[RGLCCameraDevice metadataForAvailableDevices]', symObjAddr: 0x644, symBinAddr: 0x22A0, symSize: 0x1C5 }
+  - { offset: 0x7B413, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice updateCaptureDeviceFormat:depthDataFormat:forPosition:]', symObjAddr: 0x809, symBinAddr: 0x2465, symSize: 0x135 }
+  - { offset: 0x7B539, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice depthDataFormatForFormat:]', symObjAddr: 0x93E, symBinAddr: 0x259A, symSize: 0x174 }
+  - { offset: 0x7B6C4, size: 0x8, addend: 0x0, symName: '___45-[RGLCCameraDevice depthDataFormatForFormat:]_block_invoke', symObjAddr: 0xAB2, symBinAddr: 0x270E, symSize: 0x79 }
+  - { offset: 0x7B7D4, size: 0x8, addend: 0x0, symName: '___45-[RGLCCameraDevice depthDataFormatForFormat:]_block_invoke_2', symObjAddr: 0xB2B, symBinAddr: 0x2787, symSize: 0x26 }
+  - { offset: 0x7B857, size: 0x8, addend: 0x0, symName: '___45-[RGLCCameraDevice depthDataFormatForFormat:]_block_invoke_3', symObjAddr: 0xB51, symBinAddr: 0x27AD, symSize: 0x79 }
+  - { offset: 0x7B984, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice findClosestDeviceFormatByResolution:forPosition:]', symObjAddr: 0xBCA, symBinAddr: 0x2826, symSize: 0x26B }
+  - { offset: 0x7BBB3, size: 0x8, addend: 0x0, symName: '___68-[RGLCCameraDevice findClosestDeviceFormatByResolution:forPosition:]_block_invoke', symObjAddr: 0xE35, symBinAddr: 0x2A91, symSize: 0x70 }
+  - { offset: 0x7BC8C, size: 0x8, addend: 0x0, symName: '___68-[RGLCCameraDevice findClosestDeviceFormatByResolution:forPosition:]_block_invoke_2', symObjAddr: 0xEA5, symBinAddr: 0x2B01, symSize: 0xC2 }
+  - { offset: 0x7BDB0, size: 0x8, addend: 0x0, symName: '___68-[RGLCCameraDevice findClosestDeviceFormatByResolution:forPosition:]_block_invoke_3', symObjAddr: 0xF67, symBinAddr: 0x2BC3, symSize: 0x4B }
+  - { offset: 0x7BE23, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setVideoZoomFactor:]', symObjAddr: 0xFB2, symBinAddr: 0x2C0E, symSize: 0x16 }
+  - { offset: 0x7BE8B, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice videoZoomFactor]', symObjAddr: 0xFC8, symBinAddr: 0x2C24, symSize: 0x50 }
+  - { offset: 0x7BEEE, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice videoMaxZoomFactor]', symObjAddr: 0x1018, symBinAddr: 0x2C74, symSize: 0x73 }
+  - { offset: 0x7BF71, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice updateVideoZoomFactor:animated:completion:]', symObjAddr: 0x108B, symBinAddr: 0x2CE7, symSize: 0x4E9 }
+  - { offset: 0x7C37B, size: 0x8, addend: 0x0, symName: '___62-[RGLCCameraDevice updateVideoZoomFactor:animated:completion:]_block_invoke', symObjAddr: 0x1574, symBinAddr: 0x31D0, symSize: 0x52 }
+  - { offset: 0x7C3EF, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x15C6, symBinAddr: 0x3222, symSize: 0x17 }
+  - { offset: 0x7C418, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x15DD, symBinAddr: 0x3239, symSize: 0xF }
+  - { offset: 0x7C443, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice rampingVideoZoomDidChange:]', symObjAddr: 0x15EC, symBinAddr: 0x3248, symSize: 0x12A }
+  - { offset: 0x7C5D9, size: 0x8, addend: 0x0, symName: '+[RGLCCameraDevice minFocusDistanceFor:position:]', symObjAddr: 0x1716, symBinAddr: 0x3372, symSize: 0x143 }
+  - { offset: 0x7C71D, size: 0x8, addend: 0x0, symName: '+[RGLCCameraDevice captureDeviceFor:]', symObjAddr: 0x1859, symBinAddr: 0x34B5, symSize: 0x1B5 }
+  - { offset: 0x7C8D6, size: 0x8, addend: 0x0, symName: '+[RGLCCameraDevice availableDevices]', symObjAddr: 0x1A0E, symBinAddr: 0x366A, symSize: 0xC0 }
+  - { offset: 0x7C9BF, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice backCamera]', symObjAddr: 0x1ACE, symBinAddr: 0x372A, symSize: 0xA }
+  - { offset: 0x7C9F4, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setBackCamera:]', symObjAddr: 0x1AD8, symBinAddr: 0x3734, symSize: 0x11 }
+  - { offset: 0x7CA35, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice frontCamera]', symObjAddr: 0x1AE9, symBinAddr: 0x3745, symSize: 0xA }
+  - { offset: 0x7CA6A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setFrontCamera:]', symObjAddr: 0x1AF3, symBinAddr: 0x374F, symSize: 0x11 }
+  - { offset: 0x7CAAB, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice camera]', symObjAddr: 0x1B04, symBinAddr: 0x3760, symSize: 0xA }
+  - { offset: 0x7CAE0, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setCamera:]', symObjAddr: 0x1B0E, symBinAddr: 0x376A, symSize: 0x11 }
+  - { offset: 0x7CB21, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice position]', symObjAddr: 0x1B1F, symBinAddr: 0x377B, symSize: 0xA }
+  - { offset: 0x7CB56, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setPosition:]', symObjAddr: 0x1B29, symBinAddr: 0x3785, symSize: 0xA }
+  - { offset: 0x7CB93, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setCaptureDeviceFormat:]', symObjAddr: 0x1B33, symBinAddr: 0x378F, symSize: 0x11 }
+  - { offset: 0x7CBD4, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setDepthDataFormat:]', symObjAddr: 0x1B44, symBinAddr: 0x37A0, symSize: 0x11 }
+  - { offset: 0x7CC15, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice backCaptureDeviceFormat]', symObjAddr: 0x1B55, symBinAddr: 0x37B1, symSize: 0xA }
+  - { offset: 0x7CC4A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setBackCaptureDeviceFormat:]', symObjAddr: 0x1B5F, symBinAddr: 0x37BB, symSize: 0x11 }
+  - { offset: 0x7CC8B, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice backDepthDataFormat]', symObjAddr: 0x1B70, symBinAddr: 0x37CC, symSize: 0xA }
+  - { offset: 0x7CCC0, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setBackDepthDataFormat:]', symObjAddr: 0x1B7A, symBinAddr: 0x37D6, symSize: 0x11 }
+  - { offset: 0x7CD01, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice frontCaptureDeviceFormat]', symObjAddr: 0x1B8B, symBinAddr: 0x37E7, symSize: 0xA }
+  - { offset: 0x7CD36, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setFrontCaptureDeviceFormat:]', symObjAddr: 0x1B95, symBinAddr: 0x37F1, symSize: 0x11 }
+  - { offset: 0x7CD77, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice frontDepthDataFormat]', symObjAddr: 0x1BA6, symBinAddr: 0x3802, symSize: 0xA }
+  - { offset: 0x7CDAC, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setFrontDepthDataFormat:]', symObjAddr: 0x1BB0, symBinAddr: 0x380C, symSize: 0x11 }
+  - { offset: 0x7CDED, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice rampingObservingToken]', symObjAddr: 0x1BC1, symBinAddr: 0x381D, symSize: 0xA }
+  - { offset: 0x7CE22, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setRampingObservingToken:]', symObjAddr: 0x1BCB, symBinAddr: 0x3827, symSize: 0x11 }
+  - { offset: 0x7CE63, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice rampingCompletion]', symObjAddr: 0x1BDC, symBinAddr: 0x3838, symSize: 0xA }
+  - { offset: 0x7CE98, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice setRampingCompletion:]', symObjAddr: 0x1BE6, symBinAddr: 0x3842, symSize: 0xF }
+  - { offset: 0x7CED7, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDevice .cxx_destruct]', symObjAddr: 0x1BF5, symBinAddr: 0x3851, symSize: 0x8B }
+  - { offset: 0x7D2A9, size: 0x8, addend: 0x0, symName: _RGLCErrorWithUnderlyingError, symObjAddr: 0x0, symBinAddr: 0x38DC, symSize: 0x188 }
+  - { offset: 0x7D2B7, size: 0x8, addend: 0x0, symName: _RGLCErrorWithUnderlyingError, symObjAddr: 0x0, symBinAddr: 0x38DC, symSize: 0x188 }
+  - { offset: 0x7D449, size: 0x8, addend: 0x0, symName: _RGLCErrorOrUnderlyingErrorHasCodeInDomain, symObjAddr: 0x188, symBinAddr: 0x3A64, symSize: 0x183 }
+  - { offset: 0x7D627, size: 0x8, addend: 0x0, symName: _RGLCCopyCVPixelBuffer, symObjAddr: 0x0, symBinAddr: 0x3BE7, symSize: 0x36E }
+  - { offset: 0x7D64A, size: 0x8, addend: 0x0, symName: _RGLCCopyCVPixelBuffer, symObjAddr: 0x0, symBinAddr: 0x3BE7, symSize: 0x36E }
+  - { offset: 0x7DB88, size: 0x8, addend: 0x0, symName: ___RGLCCopyCVPixelBuffer_block_invoke, symObjAddr: 0x36E, symBinAddr: 0x3F55, symSize: 0x73 }
+  - { offset: 0x7DC9C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x3E1, symBinAddr: 0x3FC8, symSize: 0xF }
+  - { offset: 0x7DCCF, size: 0x8, addend: 0x0, symName: ___RGLCCopyCVPixelBuffer_block_invoke.17, symObjAddr: 0x3FF, symBinAddr: 0x3FD7, symSize: 0x70 }
+  - { offset: 0x7DF6A, size: 0x8, addend: 0x0, symName: '-[RGLCCamera initWithConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x4047, symSize: 0x1BA }
+  - { offset: 0x7DF84, size: 0x8, addend: 0x0, symName: _RGLCCameraErrorDomain, symObjAddr: 0x6E00, symBinAddr: 0x24310, symSize: 0x0 }
+  - { offset: 0x7E7C7, size: 0x8, addend: 0x0, symName: '-[RGLCCamera initWithConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x4047, symSize: 0x1BA }
+  - { offset: 0x7E90E, size: 0x8, addend: 0x0, symName: '-[RGLCCamera init]', symObjAddr: 0x1BA, symBinAddr: 0x4201, symSize: 0x40 }
+  - { offset: 0x7E96D, size: 0x8, addend: 0x0, symName: '-[RGLCCamera dealloc]', symObjAddr: 0x1FA, symBinAddr: 0x4241, symSize: 0x80 }
+  - { offset: 0x7E9CE, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setVideoZoomFactor:]', symObjAddr: 0x27A, symBinAddr: 0x42C1, symSize: 0xD2 }
+  - { offset: 0x7EA83, size: 0x8, addend: 0x0, symName: '___33-[RGLCCamera setVideoZoomFactor:]_block_invoke', symObjAddr: 0x34C, symBinAddr: 0x4393, symSize: 0x66 }
+  - { offset: 0x7EB00, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setCurrentDevicePosition:]', symObjAddr: 0x3D0, symBinAddr: 0x43F9, symSize: 0x238 }
+  - { offset: 0x7ED12, size: 0x8, addend: 0x0, symName: '-[RGLCCamera currentDevicePosition]', symObjAddr: 0x608, symBinAddr: 0x4631, symSize: 0x44 }
+  - { offset: 0x7ED75, size: 0x8, addend: 0x0, symName: '-[RGLCCamera isTorchAvailable]', symObjAddr: 0x64C, symBinAddr: 0x4675, symSize: 0x6E }
+  - { offset: 0x7EDF8, size: 0x8, addend: 0x0, symName: '-[RGLCCamera hasTorch]', symObjAddr: 0x6BA, symBinAddr: 0x46E3, symSize: 0x6E }
+  - { offset: 0x7EE7B, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setTorchMode:]', symObjAddr: 0x728, symBinAddr: 0x4751, symSize: 0x9E }
+  - { offset: 0x7EF0B, size: 0x8, addend: 0x0, symName: '-[RGLCCamera torchMode]', symObjAddr: 0x7C6, symBinAddr: 0x47EF, symSize: 0x6E }
+  - { offset: 0x7EF8E, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setRotationEnabled:]', symObjAddr: 0x834, symBinAddr: 0x485D, symSize: 0x15 }
+  - { offset: 0x7EFE2, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setSessionPreset:]', symObjAddr: 0x849, symBinAddr: 0x4872, symSize: 0x163 }
+  - { offset: 0x7F13E, size: 0x8, addend: 0x0, symName: '-[RGLCCamera start:]', symObjAddr: 0x9AC, symBinAddr: 0x49D5, symSize: 0x8 }
+  - { offset: 0x7F17D, size: 0x8, addend: 0x0, symName: '-[RGLCCamera stop]', symObjAddr: 0x9B4, symBinAddr: 0x49DD, symSize: 0x6 }
+  - { offset: 0x7F1AC, size: 0x8, addend: 0x0, symName: '-[RGLCCamera updateCaptureDeviceFormat:depthDataFormat:forPosition:]', symObjAddr: 0x9BA, symBinAddr: 0x49E3, symSize: 0x15E }
+  - { offset: 0x7F322, size: 0x8, addend: 0x0, symName: '___68-[RGLCCamera updateCaptureDeviceFormat:depthDataFormat:forPosition:]_block_invoke', symObjAddr: 0xB18, symBinAddr: 0x4B41, symSize: 0x12A }
+  - { offset: 0x7F440, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0xC42, symBinAddr: 0x4C6B, symSize: 0x2C }
+  - { offset: 0x7F48D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0xC6E, symBinAddr: 0x4C97, symSize: 0x2C }
+  - { offset: 0x7F4D0, size: 0x8, addend: 0x0, symName: '-[RGLCCamera toggleDevicePosition]', symObjAddr: 0xC9A, symBinAddr: 0x4CC3, symSize: 0x3A }
+  - { offset: 0x7F524, size: 0x8, addend: 0x0, symName: '-[RGLCCamera focusAtPoint:continuousAuto:]', symObjAddr: 0xCD4, symBinAddr: 0x4CFD, symSize: 0x3B6 }
+  - { offset: 0x7F8C2, size: 0x8, addend: 0x0, symName: '-[RGLCCamera focusAtPoint:]', symObjAddr: 0x108A, symBinAddr: 0x50B3, symSize: 0x14 }
+  - { offset: 0x7F92E, size: 0x8, addend: 0x0, symName: '-[RGLCCamera updateVideoZoomFactor:animated:completion:]', symObjAddr: 0x109E, symBinAddr: 0x50C7, symSize: 0x11B }
+  - { offset: 0x7FA39, size: 0x8, addend: 0x0, symName: '___56-[RGLCCamera updateVideoZoomFactor:animated:completion:]_block_invoke', symObjAddr: 0x11B9, symBinAddr: 0x51E2, symSize: 0x68 }
+  - { offset: 0x7FACC, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x1221, symBinAddr: 0x524A, symSize: 0x30 }
+  - { offset: 0x7FB01, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x1251, symBinAddr: 0x527A, symSize: 0x25 }
+  - { offset: 0x7FB38, size: 0x8, addend: 0x0, symName: '-[RGLCCamera metadataFromDevice]', symObjAddr: 0x1276, symBinAddr: 0x529F, symSize: 0x278 }
+  - { offset: 0x7FD66, size: 0x8, addend: 0x0, symName: '-[RGLCCamera capturePhoto:completion:]', symObjAddr: 0x14EE, symBinAddr: 0x5517, symSize: 0x8B }
+  - { offset: 0x7FE40, size: 0x8, addend: 0x0, symName: '-[RGLCCamera capturePhoto:]', symObjAddr: 0x1579, symBinAddr: 0x55A2, symSize: 0x69 }
+  - { offset: 0x7FEDA, size: 0x8, addend: 0x0, symName: '-[RGLCCamera capturePhotoWithTask:]', symObjAddr: 0x15E2, symBinAddr: 0x560B, symSize: 0x69 }
+  - { offset: 0x7FF74, size: 0x8, addend: 0x0, symName: '-[RGLCCamera configureSessionOnceWithError:]', symObjAddr: 0x164B, symBinAddr: 0x5674, symSize: 0x186 }
+  - { offset: 0x80050, size: 0x8, addend: 0x0, symName: '___44-[RGLCCamera configureSessionOnceWithError:]_block_invoke', symObjAddr: 0x17D1, symBinAddr: 0x57FA, symSize: 0x1B2 }
+  - { offset: 0x801E2, size: 0x8, addend: 0x0, symName: '___44-[RGLCCamera configureSessionOnceWithError:]_block_invoke_2', symObjAddr: 0x1983, symBinAddr: 0x59AC, symSize: 0x16 }
+  - { offset: 0x80230, size: 0x8, addend: 0x0, symName: '___44-[RGLCCamera configureSessionOnceWithError:]_block_invoke.190', symObjAddr: 0x1999, symBinAddr: 0x59C2, symSize: 0x16 }
+  - { offset: 0x8027E, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setupInputDevices]', symObjAddr: 0x19AF, symBinAddr: 0x59D8, symSize: 0xF1 }
+  - { offset: 0x80360, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setupOutputDevices]', symObjAddr: 0x1AA0, symBinAddr: 0x5AC9, symSize: 0x1D9 }
+  - { offset: 0x804C4, size: 0x8, addend: 0x0, symName: '___32-[RGLCCamera setupOutputDevices]_block_invoke', symObjAddr: 0x1C79, symBinAddr: 0x5CA2, symSize: 0x565 }
+  - { offset: 0x80999, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x21DE, symBinAddr: 0x6207, symSize: 0x12 }
+  - { offset: 0x809C2, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x21F0, symBinAddr: 0x6219, symSize: 0xE }
+  - { offset: 0x809E1, size: 0x8, addend: 0x0, symName: '-[RGLCCamera isSessionPresetSelected]', symObjAddr: 0x21FE, symBinAddr: 0x6227, symSize: 0x52 }
+  - { offset: 0x80A4D, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setupCaptureDevice]', symObjAddr: 0x2250, symBinAddr: 0x6279, symSize: 0x137A }
+  - { offset: 0x818D7, size: 0x8, addend: 0x0, symName: '___32-[RGLCCamera setupCaptureDevice]_block_invoke', symObjAddr: 0x35CA, symBinAddr: 0x75F3, symSize: 0x6F }
+  - { offset: 0x81998, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setupTorchMode:]', symObjAddr: 0x3639, symBinAddr: 0x7662, symSize: 0x3F5 }
+  - { offset: 0x81CCC, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setupDeviceOrienatationHandling]', symObjAddr: 0x3A2E, symBinAddr: 0x7A57, symSize: 0x191 }
+  - { offset: 0x81E1D, size: 0x8, addend: 0x0, symName: '-[RGLCCamera handleOrientationChange]', symObjAddr: 0x3BBF, symBinAddr: 0x7BE8, symSize: 0x1AD }
+  - { offset: 0x81F81, size: 0x8, addend: 0x0, symName: '-[RGLCCamera isFrameRateSupported:withFormat:]', symObjAddr: 0x3D6C, symBinAddr: 0x7D95, symSize: 0x26E }
+  - { offset: 0x820A2, size: 0x8, addend: 0x0, symName: '-[RGLCCamera addObservers]', symObjAddr: 0x3FDA, symBinAddr: 0x8003, symSize: 0x1B7 }
+  - { offset: 0x8224A, size: 0x8, addend: 0x0, symName: '-[RGLCCamera registerOnCaptureDeviceSubjectAreaDidChangeNotificationForDevice:]', symObjAddr: 0x4191, symBinAddr: 0x81BA, symSize: 0x8C }
+  - { offset: 0x822F2, size: 0x8, addend: 0x0, symName: '-[RGLCCamera unregisterOnCaptureDeviceSubjectAreaDidChangeNotificationForDevice:]', symObjAddr: 0x421D, symBinAddr: 0x8246, symSize: 0x85 }
+  - { offset: 0x8239A, size: 0x8, addend: 0x0, symName: '-[RGLCCamera removeObservers]', symObjAddr: 0x42A2, symBinAddr: 0x82CB, symSize: 0x24D }
+  - { offset: 0x82621, size: 0x8, addend: 0x0, symName: '-[RGLCCamera onSessionRuntimeErrorNotification:]', symObjAddr: 0x44EF, symBinAddr: 0x8518, symSize: 0x221 }
+  - { offset: 0x827E6, size: 0x8, addend: 0x0, symName: '___48-[RGLCCamera onSessionRuntimeErrorNotification:]_block_invoke', symObjAddr: 0x4710, symBinAddr: 0x8739, symSize: 0x41 }
+  - { offset: 0x8285D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x4751, symBinAddr: 0x877A, symSize: 0x25 }
+  - { offset: 0x8289E, size: 0x8, addend: 0x0, symName: '-[RGLCCamera onSessionDidStartRunningNotification:]', symObjAddr: 0x4776, symBinAddr: 0x879F, symSize: 0x12A }
+  - { offset: 0x82981, size: 0x8, addend: 0x0, symName: '___51-[RGLCCamera onSessionDidStartRunningNotification:]_block_invoke', symObjAddr: 0x48A0, symBinAddr: 0x88C9, symSize: 0x3D }
+  - { offset: 0x829E7, size: 0x8, addend: 0x0, symName: '-[RGLCCamera onSessionDidStopRunningNotification:]', symObjAddr: 0x48DD, symBinAddr: 0x8906, symSize: 0x12A }
+  - { offset: 0x82ACA, size: 0x8, addend: 0x0, symName: '___50-[RGLCCamera onSessionDidStopRunningNotification:]_block_invoke', symObjAddr: 0x4A07, symBinAddr: 0x8A30, symSize: 0x3D }
+  - { offset: 0x82B30, size: 0x8, addend: 0x0, symName: '-[RGLCCamera onSessionWasInterruptedNotification:]', symObjAddr: 0x4A44, symBinAddr: 0x8A6D, symSize: 0x1C1 }
+  - { offset: 0x82CC2, size: 0x8, addend: 0x0, symName: '___50-[RGLCCamera onSessionWasInterruptedNotification:]_block_invoke', symObjAddr: 0x4C05, symBinAddr: 0x8C2E, symSize: 0x41 }
+  - { offset: 0x82D39, size: 0x8, addend: 0x0, symName: '-[RGLCCamera onSessionInterruptionEndedNotification:]', symObjAddr: 0x4C46, symBinAddr: 0x8C6F, symSize: 0x12A }
+  - { offset: 0x82E1C, size: 0x8, addend: 0x0, symName: '___53-[RGLCCamera onSessionInterruptionEndedNotification:]_block_invoke', symObjAddr: 0x4D70, symBinAddr: 0x8D99, symSize: 0x3D }
+  - { offset: 0x82E82, size: 0x8, addend: 0x0, symName: '-[RGLCCamera onCaptureDeviceSubjectAreaDidChangeNotification:]', symObjAddr: 0x4DAD, symBinAddr: 0x8DD6, symSize: 0x1EA }
+  - { offset: 0x8301E, size: 0x8, addend: 0x0, symName: '___62-[RGLCCamera onCaptureDeviceSubjectAreaDidChangeNotification:]_block_invoke', symObjAddr: 0x4F97, symBinAddr: 0x8FC0, symSize: 0x41 }
+  - { offset: 0x83095, size: 0x8, addend: 0x0, symName: '+[RGLCCamera cameraPermissionGranted]', symObjAddr: 0x4FD8, symBinAddr: 0x9001, symSize: 0x2B }
+  - { offset: 0x830E6, size: 0x8, addend: 0x0, symName: '+[RGLCCamera requestCameraPermission:]', symObjAddr: 0x5003, symBinAddr: 0x902C, symSize: 0x188 }
+  - { offset: 0x831F5, size: 0x8, addend: 0x0, symName: '___38+[RGLCCamera requestCameraPermission:]_block_invoke', symObjAddr: 0x518B, symBinAddr: 0x91B4, symSize: 0x68 }
+  - { offset: 0x83272, size: 0x8, addend: 0x0, symName: '___38+[RGLCCamera requestCameraPermission:]_block_invoke_2', symObjAddr: 0x51F3, symBinAddr: 0x921C, symSize: 0x7D }
+  - { offset: 0x83338, size: 0x8, addend: 0x0, symName: '-[RGLCCamera objectHeightOnPreviewForDistance:realObjectHeight:focalLength:cameraScale:]', symObjAddr: 0x5287, symBinAddr: 0x9299, symSize: 0x1FD }
+  - { offset: 0x83590, size: 0x8, addend: 0x0, symName: '-[RGLCCamera cameraZoomForDistance:objectPreviewHeight:realObjectHeight:focalLength:]', symObjAddr: 0x5484, symBinAddr: 0x9496, symSize: 0x214 }
+  - { offset: 0x837DF, size: 0x8, addend: 0x0, symName: '-[RGLCCamera session]', symObjAddr: 0x5698, symBinAddr: 0x96AA, symSize: 0xA }
+  - { offset: 0x83814, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setSession:]', symObjAddr: 0x56A2, symBinAddr: 0x96B4, symSize: 0x11 }
+  - { offset: 0x83855, size: 0x8, addend: 0x0, symName: '-[RGLCCamera previewView]', symObjAddr: 0x56B3, symBinAddr: 0x96C5, symSize: 0xA }
+  - { offset: 0x8388A, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setPreviewView:]', symObjAddr: 0x56BD, symBinAddr: 0x96CF, symSize: 0x11 }
+  - { offset: 0x838CB, size: 0x8, addend: 0x0, symName: '-[RGLCCamera device]', symObjAddr: 0x56CE, symBinAddr: 0x96E0, symSize: 0xA }
+  - { offset: 0x83900, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setDevice:]', symObjAddr: 0x56D8, symBinAddr: 0x96EA, symSize: 0x11 }
+  - { offset: 0x83941, size: 0x8, addend: 0x0, symName: '-[RGLCCamera output]', symObjAddr: 0x56E9, symBinAddr: 0x96FB, symSize: 0xA }
+  - { offset: 0x83976, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setOutput:]', symObjAddr: 0x56F3, symBinAddr: 0x9705, symSize: 0x11 }
+  - { offset: 0x839B7, size: 0x8, addend: 0x0, symName: '-[RGLCCamera isRotationEnabled]', symObjAddr: 0x5704, symBinAddr: 0x9716, symSize: 0x9 }
+  - { offset: 0x839EC, size: 0x8, addend: 0x0, symName: '-[RGLCCamera sessionPreset]', symObjAddr: 0x570D, symBinAddr: 0x971F, symSize: 0xA }
+  - { offset: 0x83A21, size: 0x8, addend: 0x0, symName: '-[RGLCCamera videoZoomFactor]', symObjAddr: 0x5717, symBinAddr: 0x9729, symSize: 0xB }
+  - { offset: 0x83A56, size: 0x8, addend: 0x0, symName: '-[RGLCCamera isRequestedResolutionSupported]', symObjAddr: 0x5722, symBinAddr: 0x9734, symSize: 0x9 }
+  - { offset: 0x83A8B, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setRequestedResolutionSupported:]', symObjAddr: 0x572B, symBinAddr: 0x973D, symSize: 0x9 }
+  - { offset: 0x83AC8, size: 0x8, addend: 0x0, symName: '-[RGLCCamera onDidRecieveRuntimeError]', symObjAddr: 0x5734, symBinAddr: 0x9746, symSize: 0xA }
+  - { offset: 0x83AFD, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setOnDidRecieveRuntimeError:]', symObjAddr: 0x573E, symBinAddr: 0x9750, symSize: 0xF }
+  - { offset: 0x83B3C, size: 0x8, addend: 0x0, symName: '-[RGLCCamera onDidStartRunning]', symObjAddr: 0x574D, symBinAddr: 0x975F, symSize: 0xA }
+  - { offset: 0x83B71, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setOnDidStartRunning:]', symObjAddr: 0x5757, symBinAddr: 0x9769, symSize: 0xF }
+  - { offset: 0x83BB0, size: 0x8, addend: 0x0, symName: '-[RGLCCamera onDidStopRunning]', symObjAddr: 0x5766, symBinAddr: 0x9778, symSize: 0xA }
+  - { offset: 0x83BE5, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setOnDidStopRunning:]', symObjAddr: 0x5770, symBinAddr: 0x9782, symSize: 0xF }
+  - { offset: 0x83C24, size: 0x8, addend: 0x0, symName: '-[RGLCCamera onInterrupted]', symObjAddr: 0x577F, symBinAddr: 0x9791, symSize: 0xA }
+  - { offset: 0x83C59, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setOnInterrupted:]', symObjAddr: 0x5789, symBinAddr: 0x979B, symSize: 0xF }
+  - { offset: 0x83C98, size: 0x8, addend: 0x0, symName: '-[RGLCCamera onInterruptionEnded]', symObjAddr: 0x5798, symBinAddr: 0x97AA, symSize: 0xA }
+  - { offset: 0x83CCD, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setOnInterruptionEnded:]', symObjAddr: 0x57A2, symBinAddr: 0x97B4, symSize: 0xF }
+  - { offset: 0x83D0C, size: 0x8, addend: 0x0, symName: '-[RGLCCamera onCaptureDeviceSubjectAreaDidChange]', symObjAddr: 0x57B1, symBinAddr: 0x97C3, symSize: 0xA }
+  - { offset: 0x83D41, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setOnCaptureDeviceSubjectAreaDidChange:]', symObjAddr: 0x57BB, symBinAddr: 0x97CD, symSize: 0xF }
+  - { offset: 0x83D80, size: 0x8, addend: 0x0, symName: '-[RGLCCamera sessionQueue]', symObjAddr: 0x57CA, symBinAddr: 0x97DC, symSize: 0xA }
+  - { offset: 0x83DB5, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setSessionQueue:]', symObjAddr: 0x57D4, symBinAddr: 0x97E6, symSize: 0x11 }
+  - { offset: 0x83DF6, size: 0x8, addend: 0x0, symName: '-[RGLCCamera configuration]', symObjAddr: 0x57E5, symBinAddr: 0x97F7, symSize: 0xA }
+  - { offset: 0x83E2B, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setConfiguration:]', symObjAddr: 0x57EF, symBinAddr: 0x9801, symSize: 0x11 }
+  - { offset: 0x83E6C, size: 0x8, addend: 0x0, symName: '-[RGLCCamera deviceInput]', symObjAddr: 0x5800, symBinAddr: 0x9812, symSize: 0xD }
+  - { offset: 0x83EA1, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setDeviceInput:]', symObjAddr: 0x580D, symBinAddr: 0x981F, symSize: 0x11 }
+  - { offset: 0x83EE2, size: 0x8, addend: 0x0, symName: '-[RGLCCamera bufferStream]', symObjAddr: 0x581E, symBinAddr: 0x9830, symSize: 0xD }
+  - { offset: 0x83F17, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setBufferStream:]', symObjAddr: 0x582B, symBinAddr: 0x983D, symSize: 0x14 }
+  - { offset: 0x83F58, size: 0x8, addend: 0x0, symName: '-[RGLCCamera isCameraConfigured]', symObjAddr: 0x583F, symBinAddr: 0x9851, symSize: 0x9 }
+  - { offset: 0x83F8D, size: 0x8, addend: 0x0, symName: '-[RGLCCamera setCameraConfigured:]', symObjAddr: 0x5848, symBinAddr: 0x985A, symSize: 0x9 }
+  - { offset: 0x83FCA, size: 0x8, addend: 0x0, symName: '-[RGLCCamera .cxx_destruct]', symObjAddr: 0x5851, symBinAddr: 0x9863, symSize: 0xB2 }
+  - { offset: 0x849CE, size: 0x8, addend: 0x0, symName: '+[UIColor(RGLCAdditions) rglc_colorFromHexString:]', symObjAddr: 0x0, symBinAddr: 0x9915, symSize: 0xD4 }
+  - { offset: 0x849DC, size: 0x8, addend: 0x0, symName: '+[UIColor(RGLCAdditions) rglc_colorFromHexString:]', symObjAddr: 0x0, symBinAddr: 0x9915, symSize: 0xD4 }
+  - { offset: 0x84B08, size: 0x8, addend: 0x0, symName: '-[RGLCProvider initWithSession:]', symObjAddr: 0x0, symBinAddr: 0x99E9, symSize: 0xDD }
+  - { offset: 0x84B22, size: 0x8, addend: 0x0, symName: _RGLCProviderErrorDomain, symObjAddr: 0xC70, symBinAddr: 0x244C8, symSize: 0x0 }
+  - { offset: 0x84E4C, size: 0x8, addend: 0x0, symName: '-[RGLCProvider initWithSession:]', symObjAddr: 0x0, symBinAddr: 0x99E9, symSize: 0xDD }
+  - { offset: 0x84EFF, size: 0x8, addend: 0x0, symName: '-[RGLCProvider acceptableStatusCodes]', symObjAddr: 0xDD, symBinAddr: 0x9AC6, symSize: 0x50 }
+  - { offset: 0x84F62, size: 0x8, addend: 0x0, symName: '-[RGLCProvider setAcceptableStatusCodes:]', symObjAddr: 0x12D, symBinAddr: 0x9B16, symSize: 0x69 }
+  - { offset: 0x84FFA, size: 0x8, addend: 0x0, symName: '-[RGLCProvider acceptableContentTypes]', symObjAddr: 0x196, symBinAddr: 0x9B7F, symSize: 0x50 }
+  - { offset: 0x8505D, size: 0x8, addend: 0x0, symName: '-[RGLCProvider setAcceptableContentTypes:]', symObjAddr: 0x1E6, symBinAddr: 0x9BCF, symSize: 0x69 }
+  - { offset: 0x850F5, size: 0x8, addend: 0x0, symName: '-[RGLCProvider request:completion:]', symObjAddr: 0x24F, symBinAddr: 0x9C38, symSize: 0x2B9 }
+  - { offset: 0x853B2, size: 0x8, addend: 0x0, symName: '___35-[RGLCProvider request:completion:]_block_invoke', symObjAddr: 0x508, symBinAddr: 0x9EF1, symSize: 0x15 }
+  - { offset: 0x85410, size: 0x8, addend: 0x0, symName: '___35-[RGLCProvider request:completion:]_block_invoke.30', symObjAddr: 0x572, symBinAddr: 0x9F06, symSize: 0x152 }
+  - { offset: 0x855D5, size: 0x8, addend: 0x0, symName: '-[RGLCProvider loadDataRequest:completion:]', symObjAddr: 0x6C4, symBinAddr: 0xA058, symSize: 0x2AC }
+  - { offset: 0x8585D, size: 0x8, addend: 0x0, symName: '___43-[RGLCProvider loadDataRequest:completion:]_block_invoke', symObjAddr: 0x970, symBinAddr: 0xA304, symSize: 0x15 }
+  - { offset: 0x858BB, size: 0x8, addend: 0x0, symName: '___43-[RGLCProvider loadDataRequest:completion:]_block_invoke_2', symObjAddr: 0x985, symBinAddr: 0xA319, symSize: 0xE1 }
+  - { offset: 0x85A24, size: 0x8, addend: 0x0, symName: '+[RGLCProvider mapResponseSerializationError:]', symObjAddr: 0xA8C, symBinAddr: 0xA3FA, symSize: 0x9B }
+  - { offset: 0x85ADA, size: 0x8, addend: 0x0, symName: '-[RGLCProvider overrideURL]', symObjAddr: 0xB27, symBinAddr: 0xA495, symSize: 0xA }
+  - { offset: 0x85B0F, size: 0x8, addend: 0x0, symName: '-[RGLCProvider setOverrideURL:]', symObjAddr: 0xB31, symBinAddr: 0xA49F, symSize: 0xF }
+  - { offset: 0x85B4E, size: 0x8, addend: 0x0, symName: '-[RGLCProvider baseURL]', symObjAddr: 0xB40, symBinAddr: 0xA4AE, symSize: 0xA }
+  - { offset: 0x85B83, size: 0x8, addend: 0x0, symName: '-[RGLCProvider setBaseURL:]', symObjAddr: 0xB4A, symBinAddr: 0xA4B8, symSize: 0xF }
+  - { offset: 0x85BC2, size: 0x8, addend: 0x0, symName: '-[RGLCProvider session]', symObjAddr: 0xB59, symBinAddr: 0xA4C7, symSize: 0xA }
+  - { offset: 0x85BF7, size: 0x8, addend: 0x0, symName: '-[RGLCProvider setSession:]', symObjAddr: 0xB63, symBinAddr: 0xA4D1, symSize: 0x11 }
+  - { offset: 0x85C38, size: 0x8, addend: 0x0, symName: '-[RGLCProvider responseSerializer]', symObjAddr: 0xB74, symBinAddr: 0xA4E2, symSize: 0xA }
+  - { offset: 0x85C6D, size: 0x8, addend: 0x0, symName: '-[RGLCProvider setResponseSerializer:]', symObjAddr: 0xB7E, symBinAddr: 0xA4EC, symSize: 0x11 }
+  - { offset: 0x85CAE, size: 0x8, addend: 0x0, symName: '-[RGLCProvider serializer]', symObjAddr: 0xB8F, symBinAddr: 0xA4FD, symSize: 0xA }
+  - { offset: 0x85CE3, size: 0x8, addend: 0x0, symName: '-[RGLCProvider setSerializer:]', symObjAddr: 0xB99, symBinAddr: 0xA507, symSize: 0x11 }
+  - { offset: 0x85D24, size: 0x8, addend: 0x0, symName: '-[RGLCProvider .cxx_destruct]', symObjAddr: 0xBAA, symBinAddr: 0xA518, symSize: 0x49 }
+  - { offset: 0x860D0, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder init]', symObjAddr: 0x0, symBinAddr: 0xA561, symSize: 0x58 }
+  - { offset: 0x860EA, size: 0x8, addend: 0x0, symName: _RGLCVideoRecorderErrorDomain, symObjAddr: 0x14A0, symBinAddr: 0x24560, symSize: 0x0 }
+  - { offset: 0x861D1, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder init]', symObjAddr: 0x0, symBinAddr: 0xA561, symSize: 0x58 }
+  - { offset: 0x8624B, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder recordImageBuffer:atPresentationTime:completion:]', symObjAddr: 0x58, symBinAddr: 0xA5B9, symSize: 0x137 }
+  - { offset: 0x863C2, size: 0x8, addend: 0x0, symName: '___69-[RGLCVideoRecorder recordImageBuffer:atPresentationTime:completion:]_block_invoke', symObjAddr: 0x18F, symBinAddr: 0xA6F0, symSize: 0xA4 }
+  - { offset: 0x86484, size: 0x8, addend: 0x0, symName: '___69-[RGLCVideoRecorder recordImageBuffer:atPresentationTime:completion:]_block_invoke_2', symObjAddr: 0x233, symBinAddr: 0xA794, symSize: 0x13 }
+  - { offset: 0x864DB, size: 0x8, addend: 0x0, symName: '___69-[RGLCVideoRecorder recordImageBuffer:atPresentationTime:completion:]_block_invoke.6', symObjAddr: 0x2C1, symBinAddr: 0xA7A7, symSize: 0x2B7 }
+  - { offset: 0x867C5, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder startRecordingAtFileURL:fileType:outputSettings:completion:]', symObjAddr: 0x578, symBinAddr: 0xAA5E, symSize: 0x19F }
+  - { offset: 0x869DB, size: 0x8, addend: 0x0, symName: '___80-[RGLCVideoRecorder startRecordingAtFileURL:fileType:outputSettings:completion:]_block_invoke', symObjAddr: 0x717, symBinAddr: 0xABFD, symSize: 0xA4 }
+  - { offset: 0x86A9D, size: 0x8, addend: 0x0, symName: '___80-[RGLCVideoRecorder startRecordingAtFileURL:fileType:outputSettings:completion:]_block_invoke_2', symObjAddr: 0x7BB, symBinAddr: 0xACA1, symSize: 0x13 }
+  - { offset: 0x86AF4, size: 0x8, addend: 0x0, symName: '___80-[RGLCVideoRecorder startRecordingAtFileURL:fileType:outputSettings:completion:]_block_invoke_3', symObjAddr: 0x7CE, symBinAddr: 0xACB4, symSize: 0x567 }
+  - { offset: 0x87015, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64b, symObjAddr: 0xD35, symBinAddr: 0xB21B, symSize: 0x52 }
+  - { offset: 0x8706E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s, symObjAddr: 0xD87, symBinAddr: 0xB26D, symSize: 0x3A }
+  - { offset: 0x870C9, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder stopRecordingWithCompletion:]', symObjAddr: 0xDC1, symBinAddr: 0xB2A7, symSize: 0x109 }
+  - { offset: 0x871D0, size: 0x8, addend: 0x0, symName: '___49-[RGLCVideoRecorder stopRecordingWithCompletion:]_block_invoke', symObjAddr: 0xECA, symBinAddr: 0xB3B0, symSize: 0xD2 }
+  - { offset: 0x872EA, size: 0x8, addend: 0x0, symName: '___49-[RGLCVideoRecorder stopRecordingWithCompletion:]_block_invoke_2', symObjAddr: 0xF9C, symBinAddr: 0xB482, symSize: 0x1A }
+  - { offset: 0x87351, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0xFB6, symBinAddr: 0xB49C, symSize: 0x44 }
+  - { offset: 0x87392, size: 0x8, addend: 0x0, symName: '___49-[RGLCVideoRecorder stopRecordingWithCompletion:]_block_invoke.66', symObjAddr: 0x1026, symBinAddr: 0xB4E0, symSize: 0x19B }
+  - { offset: 0x87592, size: 0x8, addend: 0x0, symName: '___49-[RGLCVideoRecorder stopRecordingWithCompletion:]_block_invoke_2.67', symObjAddr: 0x11C1, symBinAddr: 0xB67B, symSize: 0x15F }
+  - { offset: 0x87747, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder queue]', symObjAddr: 0x1320, symBinAddr: 0xB7DA, symSize: 0xA }
+  - { offset: 0x8777C, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder setQueue:]', symObjAddr: 0x132A, symBinAddr: 0xB7E4, symSize: 0x11 }
+  - { offset: 0x877BD, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder firstSample]', symObjAddr: 0x133B, symBinAddr: 0xB7F5, symSize: 0x9 }
+  - { offset: 0x877F2, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder setFirstSample:]', symObjAddr: 0x1344, symBinAddr: 0xB7FE, symSize: 0x9 }
+  - { offset: 0x8782F, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder isRecording]', symObjAddr: 0x134D, symBinAddr: 0xB807, symSize: 0x9 }
+  - { offset: 0x87864, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder setIsRecording:]', symObjAddr: 0x1356, symBinAddr: 0xB810, symSize: 0x9 }
+  - { offset: 0x878A1, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder assetWriter]', symObjAddr: 0x135F, symBinAddr: 0xB819, symSize: 0xA }
+  - { offset: 0x878D6, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder setAssetWriter:]', symObjAddr: 0x1369, symBinAddr: 0xB823, symSize: 0x11 }
+  - { offset: 0x87917, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder inputPixelBufferAdapter]', symObjAddr: 0x137A, symBinAddr: 0xB834, symSize: 0xA }
+  - { offset: 0x8794C, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder setInputPixelBufferAdapter:]', symObjAddr: 0x1384, symBinAddr: 0xB83E, symSize: 0x11 }
+  - { offset: 0x8798D, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder assetWriterVideoInput]', symObjAddr: 0x1395, symBinAddr: 0xB84F, symSize: 0xA }
+  - { offset: 0x879C2, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder setAssetWriterVideoInput:]', symObjAddr: 0x139F, symBinAddr: 0xB859, symSize: 0x11 }
+  - { offset: 0x87A03, size: 0x8, addend: 0x0, symName: '-[RGLCVideoRecorder .cxx_destruct]', symObjAddr: 0x13B0, symBinAddr: 0xB86A, symSize: 0x3E }
+  - { offset: 0x87FE7, size: 0x8, addend: 0x0, symName: '+[RGLCHTTPSessionManager manager]', symObjAddr: 0x0, symBinAddr: 0xB8A8, symSize: 0x2C }
+  - { offset: 0x8825F, size: 0x8, addend: 0x0, symName: '+[RGLCHTTPSessionManager manager]', symObjAddr: 0x0, symBinAddr: 0xB8A8, symSize: 0x2C }
+  - { offset: 0x882A9, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager init]', symObjAddr: 0x2C, symBinAddr: 0xB8D4, symSize: 0x14 }
+  - { offset: 0x882FB, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager initWithBaseURL:]', symObjAddr: 0x40, symBinAddr: 0xB8E8, symSize: 0x14 }
+  - { offset: 0x88363, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager initWithSessionConfiguration:]', symObjAddr: 0x54, symBinAddr: 0xB8FC, symSize: 0x17 }
+  - { offset: 0x883CD, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager initWithBaseURL:sessionConfiguration:]', symObjAddr: 0x6B, symBinAddr: 0xB913, symSize: 0x1C0 }
+  - { offset: 0x8858A, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager baseURL]', symObjAddr: 0x22B, symBinAddr: 0xBAD3, symSize: 0x6F }
+  - { offset: 0x885F1, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager setRequestSerializer:]', symObjAddr: 0x29A, symBinAddr: 0xBB42, symSize: 0x14 }
+  - { offset: 0x88634, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager setResponseSerializer:]', symObjAddr: 0x2AE, symBinAddr: 0xBB56, symSize: 0x2F }
+  - { offset: 0x88677, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager GET:parameters:headers:success:failure:]', symObjAddr: 0x2DD, symBinAddr: 0xBB85, symSize: 0x57 }
+  - { offset: 0x88725, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager HEAD:parameters:headers:success:failure:]', symObjAddr: 0x334, symBinAddr: 0xBBDC, symSize: 0xDF }
+  - { offset: 0x88814, size: 0x8, addend: 0x0, symName: '___66-[RGLCHTTPSessionManager HEAD:parameters:headers:success:failure:]_block_invoke', symObjAddr: 0x413, symBinAddr: 0xBCBB, symSize: 0x16 }
+  - { offset: 0x88875, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager POST:parameters:headers:success:failure:]', symObjAddr: 0x44F, symBinAddr: 0xBCD1, symSize: 0x57 }
+  - { offset: 0x88923, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager PUT:parameters:headers:success:failure:]', symObjAddr: 0x4A6, symBinAddr: 0xBD28, symSize: 0x57 }
+  - { offset: 0x889D1, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager PATCH:parameters:headers:success:failure:]', symObjAddr: 0x4FD, symBinAddr: 0xBD7F, symSize: 0x57 }
+  - { offset: 0x88A7F, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager DELETE:parameters:headers:success:failure:]', symObjAddr: 0x554, symBinAddr: 0xBDD6, symSize: 0x57 }
+  - { offset: 0x88B2D, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:headers:success:failure:]', symObjAddr: 0x5AB, symBinAddr: 0xBE2D, symSize: 0x555 }
+  - { offset: 0x88F3D, size: 0x8, addend: 0x0, symName: '___94-[RGLCHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:headers:success:failure:]_block_invoke', symObjAddr: 0xB00, symBinAddr: 0xC382, symSize: 0x15 }
+  - { offset: 0x88F9B, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0xB6A, symBinAddr: 0xC397, symSize: 0x16 }
+  - { offset: 0x88FC0, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0xB80, symBinAddr: 0xC3AD, symSize: 0xF }
+  - { offset: 0x88FEB, size: 0x8, addend: 0x0, symName: '___94-[RGLCHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:headers:success:failure:]_block_invoke.62', symObjAddr: 0xB8F, symBinAddr: 0xC3BC, symSize: 0xA0 }
+  - { offset: 0x890F3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40b48r, symObjAddr: 0xC2F, symBinAddr: 0xC45C, symSize: 0x4A }
+  - { offset: 0x8911C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0xC79, symBinAddr: 0xC4A6, symSize: 0x33 }
+  - { offset: 0x89153, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager setBaseURL:]', symObjAddr: 0xCAC, symBinAddr: 0xC4D9, symSize: 0x14 }
+  - { offset: 0x89194, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager overridenBaseURL]', symObjAddr: 0xCC0, symBinAddr: 0xC4ED, symSize: 0x11 }
+  - { offset: 0x891C9, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager setOverridenBaseURL:]', symObjAddr: 0xCD1, symBinAddr: 0xC4FE, symSize: 0x14 }
+  - { offset: 0x8920A, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager requestSerializer]', symObjAddr: 0xCE5, symBinAddr: 0xC512, symSize: 0x11 }
+  - { offset: 0x8923F, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPSessionManager .cxx_destruct]', symObjAddr: 0xCF6, symBinAddr: 0xC523, symSize: 0x42 }
+  - { offset: 0x89601, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTask initWithType:]', symObjAddr: 0x0, symBinAddr: 0xC565, symSize: 0x3D }
+  - { offset: 0x896CB, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTask initWithType:]', symObjAddr: 0x0, symBinAddr: 0xC565, symSize: 0x3D }
+  - { offset: 0x89712, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTask type]', symObjAddr: 0x3D, symBinAddr: 0xC5A2, symSize: 0xA }
+  - { offset: 0x89747, size: 0x8, addend: 0x0, symName: '+[RGLCProviderTaskRequestPlain taskRequestPlain]', symObjAddr: 0x47, symBinAddr: 0xC5AC, symSize: 0x24 }
+  - { offset: 0x89791, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTaskRequestData initWithData:]', symObjAddr: 0x6B, symBinAddr: 0xC5D0, symSize: 0x73 }
+  - { offset: 0x89801, size: 0x8, addend: 0x0, symName: '+[RGLCProviderTaskRequestData taskRequestData:]', symObjAddr: 0xDE, symBinAddr: 0xC643, symSize: 0x49 }
+  - { offset: 0x89885, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTaskRequestData data]', symObjAddr: 0x127, symBinAddr: 0xC68C, symSize: 0x11 }
+  - { offset: 0x898BA, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTaskRequestData .cxx_destruct]', symObjAddr: 0x138, symBinAddr: 0xC69D, symSize: 0x13 }
+  - { offset: 0x898ED, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTaskRequestParameters initWithParameters:]', symObjAddr: 0x14B, symBinAddr: 0xC6B0, symSize: 0x73 }
+  - { offset: 0x8995D, size: 0x8, addend: 0x0, symName: '+[RGLCProviderTaskRequestParameters taskRequestParameters:]', symObjAddr: 0x1BE, symBinAddr: 0xC723, symSize: 0x49 }
+  - { offset: 0x899E1, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTaskRequestParameters parameters]', symObjAddr: 0x207, symBinAddr: 0xC76C, symSize: 0x11 }
+  - { offset: 0x89A16, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTaskRequestParameters .cxx_destruct]', symObjAddr: 0x218, symBinAddr: 0xC77D, symSize: 0x13 }
+  - { offset: 0x89AE8, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIObjectsBuilder buildLabelWithJSON:]', symObjAddr: 0x0, symBinAddr: 0xC790, symSize: 0x2EB }
+  - { offset: 0x89B07, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIObjectsBuilder buildLabelWithJSON:]', symObjAddr: 0x0, symBinAddr: 0xC790, symSize: 0x2EB }
+  - { offset: 0x89DE5, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIObjectsBuilder buildImageViewWithJSON:]', symObjAddr: 0x2EB, symBinAddr: 0xCA7B, symSize: 0x2BB }
+  - { offset: 0x8A081, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIObjectsBuilder buildButtonWithJSON:]', symObjAddr: 0x5A6, symBinAddr: 0xCD36, symSize: 0x66F }
+  - { offset: 0x8A731, size: 0x8, addend: 0x0, symName: '+[NSBundle(RGLCSDKBundle) rglc_sdkBundle]', symObjAddr: 0x0, symBinAddr: 0xD3A5, symSize: 0x30 }
+  - { offset: 0x8A73F, size: 0x8, addend: 0x0, symName: '+[NSBundle(RGLCSDKBundle) rglc_sdkBundle]', symObjAddr: 0x0, symBinAddr: 0xD3A5, symSize: 0x30 }
+  - { offset: 0x8A769, size: 0x8, addend: 0x0, symName: _rglc_sdkBundle.instance, symObjAddr: 0x17E8, symBinAddr: 0x303D8, symSize: 0x0 }
+  - { offset: 0x8A77F, size: 0x8, addend: 0x0, symName: _rglc_sdkBundle.onceToken, symObjAddr: 0x17F0, symBinAddr: 0x303E0, symSize: 0x0 }
+  - { offset: 0x8A838, size: 0x8, addend: 0x0, symName: '___41+[NSBundle(RGLCSDKBundle) rglc_sdkBundle]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xD3D5, symSize: 0x4E }
+  - { offset: 0x8A93E, size: 0x8, addend: 0x0, symName: '+[RGLCLogger shared]', symObjAddr: 0x0, symBinAddr: 0xD423, symSize: 0x63 }
+  - { offset: 0x8A94C, size: 0x8, addend: 0x0, symName: '+[RGLCLogger shared]', symObjAddr: 0x0, symBinAddr: 0xD423, symSize: 0x63 }
+  - { offset: 0x8A976, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0x3A28, symBinAddr: 0x303E8, symSize: 0x0 }
+  - { offset: 0x8A98C, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x3A30, symBinAddr: 0x303F0, symSize: 0x0 }
+  - { offset: 0x8AAE4, size: 0x8, addend: 0x0, symName: '___20+[RGLCLogger shared]_block_invoke', symObjAddr: 0x63, symBinAddr: 0xD486, symSize: 0x22 }
+  - { offset: 0x8AB2F, size: 0x8, addend: 0x0, symName: '-[RGLCLogger init]', symObjAddr: 0x85, symBinAddr: 0xD4A8, symSize: 0x114 }
+  - { offset: 0x8AC77, size: 0x8, addend: 0x0, symName: '-[RGLCLogger logLevel:subsystem:message:]', symObjAddr: 0x199, symBinAddr: 0xD5BC, symSize: 0x6 }
+  - { offset: 0x8ACCA, size: 0x8, addend: 0x0, symName: '+[RGLCLogger osLogTypeForLevel:]', symObjAddr: 0x19F, symBinAddr: 0xD5C2, symSize: 0x29 }
+  - { offset: 0x8AD0B, size: 0x8, addend: 0x0, symName: '+[RGLCLogger prefixForLevel:]', symObjAddr: 0x1C8, symBinAddr: 0xD5EB, symSize: 0x24 }
+  - { offset: 0x8AD4C, size: 0x8, addend: 0x0, symName: '+[RGLCLogger logLevel:subsystem:timeout:filename:line:message:]', symObjAddr: 0x1EC, symBinAddr: 0xD60F, symSize: 0x6 }
+  - { offset: 0x8ADC4, size: 0x8, addend: 0x0, symName: '+[RGLCLogger logLevel:subsystem:filename:line:message:]', symObjAddr: 0x1F2, symBinAddr: 0xD615, symSize: 0x6 }
+  - { offset: 0x8AE30, size: 0x8, addend: 0x0, symName: '-[RGLCLogger timeoutTable]', symObjAddr: 0x1F8, symBinAddr: 0xD61B, symSize: 0xA }
+  - { offset: 0x8AE65, size: 0x8, addend: 0x0, symName: '-[RGLCLogger setTimeoutTable:]', symObjAddr: 0x202, symBinAddr: 0xD625, symSize: 0x11 }
+  - { offset: 0x8AEA6, size: 0x8, addend: 0x0, symName: '-[RGLCLogger reportTimeTable]', symObjAddr: 0x213, symBinAddr: 0xD636, symSize: 0xA }
+  - { offset: 0x8AEDB, size: 0x8, addend: 0x0, symName: '-[RGLCLogger setReportTimeTable:]', symObjAddr: 0x21D, symBinAddr: 0xD640, symSize: 0x11 }
+  - { offset: 0x8AF1C, size: 0x8, addend: 0x0, symName: '-[RGLCLogger .cxx_destruct]', symObjAddr: 0x22E, symBinAddr: 0xD651, symSize: 0x33 }
+  - { offset: 0x8B078, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration isDataOutputSynchronizationEnabled]', symObjAddr: 0x0, symBinAddr: 0xD684, symSize: 0x9 }
+  - { offset: 0x8B320, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration isDataOutputSynchronizationEnabled]', symObjAddr: 0x0, symBinAddr: 0xD684, symSize: 0x9 }
+  - { offset: 0x8B355, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration setDataOutputSynchronizationEnabled:]', symObjAddr: 0x9, symBinAddr: 0xD68D, symSize: 0x9 }
+  - { offset: 0x8B392, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration isDepthDataOutputEnabled]', symObjAddr: 0x12, symBinAddr: 0xD696, symSize: 0x9 }
+  - { offset: 0x8B3C7, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration setDepthDataOutputEnabled:]', symObjAddr: 0x1B, symBinAddr: 0xD69F, symSize: 0x9 }
+  - { offset: 0x8B404, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration shouldAutomaticallySelectDepthDataFormat]', symObjAddr: 0x24, symBinAddr: 0xD6A8, symSize: 0x9 }
+  - { offset: 0x8B439, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration setShouldAutomaticallySelectDepthDataFormat:]', symObjAddr: 0x2D, symBinAddr: 0xD6B1, symSize: 0x9 }
+  - { offset: 0x8B476, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration shouldAutomaticallyDecreaseFramerate]', symObjAddr: 0x36, symBinAddr: 0xD6BA, symSize: 0x9 }
+  - { offset: 0x8B4AB, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration setShouldAutomaticallyDecreaseFramerate:]', symObjAddr: 0x3F, symBinAddr: 0xD6C3, symSize: 0x9 }
+  - { offset: 0x8B4E8, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration requestedResolution]', symObjAddr: 0x48, symBinAddr: 0xD6CC, symSize: 0xA }
+  - { offset: 0x8B51D, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration setRequestedResolution:]', symObjAddr: 0x52, symBinAddr: 0xD6D6, symSize: 0xA }
+  - { offset: 0x8B55A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration captureConfiguration]', symObjAddr: 0x5C, symBinAddr: 0xD6E0, symSize: 0xA }
+  - { offset: 0x8B58F, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration setCaptureConfiguration:]', symObjAddr: 0x66, symBinAddr: 0xD6EA, symSize: 0xF }
+  - { offset: 0x8B5CE, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration videoConfiguration]', symObjAddr: 0x75, symBinAddr: 0xD6F9, symSize: 0xA }
+  - { offset: 0x8B603, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration setVideoConfiguration:]', symObjAddr: 0x7F, symBinAddr: 0xD703, symSize: 0xF }
+  - { offset: 0x8B642, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration audioConfiguration]', symObjAddr: 0x8E, symBinAddr: 0xD712, symSize: 0xA }
+  - { offset: 0x8B677, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration setAudioConfiguration:]', symObjAddr: 0x98, symBinAddr: 0xD71C, symSize: 0xF }
+  - { offset: 0x8B6B6, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration depthConfiguration]', symObjAddr: 0xA7, symBinAddr: 0xD72B, symSize: 0xA }
+  - { offset: 0x8B6EB, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration setDepthConfiguration:]', symObjAddr: 0xB1, symBinAddr: 0xD735, symSize: 0xF }
+  - { offset: 0x8B72A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraConfiguration .cxx_destruct]', symObjAddr: 0xC0, symBinAddr: 0xD744, symSize: 0x3E }
+  - { offset: 0x8B7AF, size: 0x8, addend: 0x0, symName: '-[RGLCURLRequestInterceptor init]', symObjAddr: 0x0, symBinAddr: 0xD782, symSize: 0xA8 }
+  - { offset: 0x8B872, size: 0x8, addend: 0x0, symName: '-[RGLCURLRequestInterceptor init]', symObjAddr: 0x0, symBinAddr: 0xD782, symSize: 0xA8 }
+  - { offset: 0x8B922, size: 0x8, addend: 0x0, symName: '+[RGLCURLRequestInterceptor new]', symObjAddr: 0xA8, symBinAddr: 0xD82A, symSize: 0xA8 }
+  - { offset: 0x8B9A7, size: 0x8, addend: 0x0, symName: '-[RGLCURLRequestInterceptor initWithPrepare:]', symObjAddr: 0x150, symBinAddr: 0xD8D2, symSize: 0x6B }
+  - { offset: 0x8BA23, size: 0x8, addend: 0x0, symName: '-[RGLCURLRequestInterceptor prepare]', symObjAddr: 0x1BB, symBinAddr: 0xD93D, symSize: 0xA }
+  - { offset: 0x8BA58, size: 0x8, addend: 0x0, symName: '-[RGLCURLRequestInterceptor setPrepare:]', symObjAddr: 0x1C5, symBinAddr: 0xD947, symSize: 0xF }
+  - { offset: 0x8BA97, size: 0x8, addend: 0x0, symName: '-[RGLCURLRequestInterceptor .cxx_destruct]', symObjAddr: 0x1D4, symBinAddr: 0xD956, symSize: 0x10 }
+  - { offset: 0x8BB42, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataPlugin init]', symObjAddr: 0x0, symBinAddr: 0xD966, symSize: 0xA8 }
+  - { offset: 0x8BC1F, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataPlugin init]', symObjAddr: 0x0, symBinAddr: 0xD966, symSize: 0xA8 }
+  - { offset: 0x8BCCF, size: 0x8, addend: 0x0, symName: '+[RGLCCameraMetadataPlugin new]', symObjAddr: 0xA8, symBinAddr: 0xDA0E, symSize: 0xA8 }
+  - { offset: 0x8BD54, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataPlugin initWithPreviewLayer:]', symObjAddr: 0x150, symBinAddr: 0xDAB6, symSize: 0x6B }
+  - { offset: 0x8BDC4, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataPlugin sendOutputMetadataObjects:objects:]', symObjAddr: 0x1BB, symBinAddr: 0xDB21, symSize: 0x30C }
+  - { offset: 0x8C009, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataPlugin previewLayer]', symObjAddr: 0x4C7, symBinAddr: 0xDE2D, symSize: 0xA }
+  - { offset: 0x8C03E, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataPlugin setPreviewLayer:]', symObjAddr: 0x4D1, symBinAddr: 0xDE37, symSize: 0x11 }
+  - { offset: 0x8C07F, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataPlugin onMetadataObjectsOutput]', symObjAddr: 0x4E2, symBinAddr: 0xDE48, symSize: 0xA }
+  - { offset: 0x8C0B4, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataPlugin setOnMetadataObjectsOutput:]', symObjAddr: 0x4EC, symBinAddr: 0xDE52, symSize: 0xF }
+  - { offset: 0x8C0F3, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataPlugin .cxx_destruct]', symObjAddr: 0x4FB, symBinAddr: 0xDE61, symSize: 0x28 }
+  - { offset: 0x8C1B4, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask initWithWillCapture:didFinishCapture:]', symObjAddr: 0x0, symBinAddr: 0xDE89, symSize: 0xC7 }
+  - { offset: 0x8C337, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask initWithWillCapture:didFinishCapture:]', symObjAddr: 0x0, symBinAddr: 0xDE89, symSize: 0xC7 }
+  - { offset: 0x8C40F, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask makeDefaultPhototSettings]', symObjAddr: 0xC7, symBinAddr: 0xDF50, symSize: 0xB8 }
+  - { offset: 0x8C47E, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask updateJPEGData:]', symObjAddr: 0x17F, symBinAddr: 0xE008, symSize: 0x12 }
+  - { offset: 0x8C4DA, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask jpegData]', symObjAddr: 0x191, symBinAddr: 0xE01A, symSize: 0xA }
+  - { offset: 0x8C50F, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask setJpegData:]', symObjAddr: 0x19B, symBinAddr: 0xE024, symSize: 0x11 }
+  - { offset: 0x8C550, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask willCaptureBlock]', symObjAddr: 0x1AC, symBinAddr: 0xE035, symSize: 0xA }
+  - { offset: 0x8C585, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask setWillCaptureBlock:]', symObjAddr: 0x1B6, symBinAddr: 0xE03F, symSize: 0xF }
+  - { offset: 0x8C5C4, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask didFinishBlock]', symObjAddr: 0x1C5, symBinAddr: 0xE04E, symSize: 0xA }
+  - { offset: 0x8C5F9, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask setDidFinishBlock:]', symObjAddr: 0x1CF, symBinAddr: 0xE058, symSize: 0xF }
+  - { offset: 0x8C638, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask photoSettings]', symObjAddr: 0x1DE, symBinAddr: 0xE067, symSize: 0xA }
+  - { offset: 0x8C66D, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask setPhotoSettings:]', symObjAddr: 0x1E8, symBinAddr: 0xE071, symSize: 0x11 }
+  - { offset: 0x8C6AE, size: 0x8, addend: 0x0, symName: '-[RGLCCameraPhotoCaptureTask .cxx_destruct]', symObjAddr: 0x1F9, symBinAddr: 0xE082, symSize: 0x3E }
+  - { offset: 0x8C760, size: 0x8, addend: 0x0, symName: '-[RGLCLoggingViewController dealloc]', symObjAddr: 0x0, symBinAddr: 0xE0C0, symSize: 0xA8 }
+  - { offset: 0x8C794, size: 0x8, addend: 0x0, symName: '-[RGLCLoggingViewController dealloc]', symObjAddr: 0x0, symBinAddr: 0xE0C0, symSize: 0xA8 }
+  - { offset: 0x8C838, size: 0x8, addend: 0x0, symName: '-[RGLCLoggingViewController viewDidLoad]', symObjAddr: 0xA8, symBinAddr: 0xE168, symSize: 0xA6 }
+  - { offset: 0x8C8B1, size: 0x8, addend: 0x0, symName: '-[RGLCLoggingViewController viewWillAppear:]', symObjAddr: 0x14E, symBinAddr: 0xE20E, symSize: 0xA6 }
+  - { offset: 0x8C93A, size: 0x8, addend: 0x0, symName: '-[RGLCLoggingViewController viewDidAppear:]', symObjAddr: 0x1F4, symBinAddr: 0xE2B4, symSize: 0xA6 }
+  - { offset: 0x8C9C4, size: 0x8, addend: 0x0, symName: '-[RGLCLoggingViewController viewWillDisappear:]', symObjAddr: 0x29A, symBinAddr: 0xE35A, symSize: 0xA6 }
+  - { offset: 0x8CA4E, size: 0x8, addend: 0x0, symName: '-[RGLCLoggingViewController viewDidDisappear:]', symObjAddr: 0x340, symBinAddr: 0xE400, symSize: 0xA6 }
+  - { offset: 0x8CAD8, size: 0x8, addend: 0x0, symName: '-[RGLCLoggingViewController didReceiveMemoryWarning]', symObjAddr: 0x3E6, symBinAddr: 0xE4A6, symSize: 0xA6 }
+  - { offset: 0x8CBAB, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDeviceInput setupInputCameraWith:device:]', symObjAddr: 0x0, symBinAddr: 0xE54C, symSize: 0xB4 }
+  - { offset: 0x8CBFE, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDeviceInput setupInputCameraWith:device:]', symObjAddr: 0x0, symBinAddr: 0xE54C, symSize: 0xB4 }
+  - { offset: 0x8CCF5, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDeviceInput setupCurrentDevice:session:device:]', symObjAddr: 0xB4, symBinAddr: 0xE600, symSize: 0x202 }
+  - { offset: 0x8CF04, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDeviceInput currentCamera]', symObjAddr: 0x2B6, symBinAddr: 0xE802, symSize: 0xA }
+  - { offset: 0x8CF39, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDeviceInput setCurrentCamera:]', symObjAddr: 0x2C0, symBinAddr: 0xE80C, symSize: 0x11 }
+  - { offset: 0x8CF7A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraDeviceInput .cxx_destruct]', symObjAddr: 0x2D1, symBinAddr: 0xE81D, symSize: 0x10 }
+  - { offset: 0x8D015, size: 0x8, addend: 0x0, symName: _RGLCPercentEscapedStringFromString, symObjAddr: 0x0, symBinAddr: 0xE82D, symSize: 0x1C6 }
+  - { offset: 0x8D02F, size: 0x8, addend: 0x0, symName: _RGLCURLRequestSerializationErrorDomain, symObjAddr: 0x2C38, symBinAddr: 0x24740, symSize: 0x0 }
+  - { offset: 0x8D043, size: 0x8, addend: 0x0, symName: _RGLCPercentEscapedStringFromString, symObjAddr: 0x0, symBinAddr: 0xE82D, symSize: 0x1C6 }
+  - { offset: 0x8D49B, size: 0x8, addend: 0x0, symName: '-[RGLCQueryStringPair initWithField:value:]', symObjAddr: 0x1C6, symBinAddr: 0xE9F3, symSize: 0xAD }
+  - { offset: 0x8D5A1, size: 0x8, addend: 0x0, symName: '-[RGLCQueryStringPair URLEncodedStringValue]', symObjAddr: 0x273, symBinAddr: 0xEAA0, symSize: 0x1FE }
+  - { offset: 0x8D736, size: 0x8, addend: 0x0, symName: '-[RGLCQueryStringPair field]', symObjAddr: 0x471, symBinAddr: 0xEC9E, symSize: 0xA }
+  - { offset: 0x8D76B, size: 0x8, addend: 0x0, symName: '-[RGLCQueryStringPair setField:]', symObjAddr: 0x47B, symBinAddr: 0xECA8, symSize: 0x11 }
+  - { offset: 0x8D7AC, size: 0x8, addend: 0x0, symName: '-[RGLCQueryStringPair value]', symObjAddr: 0x48C, symBinAddr: 0xECB9, symSize: 0xA }
+  - { offset: 0x8D7E1, size: 0x8, addend: 0x0, symName: '-[RGLCQueryStringPair setValue:]', symObjAddr: 0x496, symBinAddr: 0xECC3, symSize: 0x11 }
+  - { offset: 0x8D822, size: 0x8, addend: 0x0, symName: '-[RGLCQueryStringPair .cxx_destruct]', symObjAddr: 0x4A7, symBinAddr: 0xECD4, symSize: 0x28 }
+  - { offset: 0x8D874, size: 0x8, addend: 0x0, symName: _RGLCQueryStringFromParameters, symObjAddr: 0x4CF, symBinAddr: 0xECFC, symSize: 0x1F3 }
+  - { offset: 0x8D9BC, size: 0x8, addend: 0x0, symName: _RGLCQueryStringPairsFromKeyAndValue, symObjAddr: 0x6D1, symBinAddr: 0xEEFE, symSize: 0x707 }
+  - { offset: 0x8DE21, size: 0x8, addend: 0x0, symName: _RGLCQueryStringPairsFromDictionary, symObjAddr: 0x6C2, symBinAddr: 0xEEEF, symSize: 0xF }
+  - { offset: 0x8DE5D, size: 0x8, addend: 0x0, symName: '+[RGLCHTTPRequestSerializer serializer]', symObjAddr: 0xDD8, symBinAddr: 0xF605, symSize: 0x12 }
+  - { offset: 0x8DE94, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer init]', symObjAddr: 0xDEA, symBinAddr: 0xF617, symSize: 0x593 }
+  - { offset: 0x8E3F8, size: 0x8, addend: 0x0, symName: '___33-[RGLCHTTPRequestSerializer init]_block_invoke', symObjAddr: 0x137D, symBinAddr: 0xFBAA, symSize: 0xB4 }
+  - { offset: 0x8E4B6, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer HTTPRequestHeaders]', symObjAddr: 0x144F, symBinAddr: 0xFC5E, symSize: 0xFB }
+  - { offset: 0x8E579, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x154A, symBinAddr: 0xFD59, symSize: 0x16 }
+  - { offset: 0x8E59E, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x1560, symBinAddr: 0xFD6F, symSize: 0xF }
+  - { offset: 0x8E5C9, size: 0x8, addend: 0x0, symName: '___47-[RGLCHTTPRequestSerializer HTTPRequestHeaders]_block_invoke', symObjAddr: 0x156F, symBinAddr: 0xFD7E, symSize: 0x76 }
+  - { offset: 0x8E648, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x15E5, symBinAddr: 0xFDF4, symSize: 0x30 }
+  - { offset: 0x8E67D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x1615, symBinAddr: 0xFE24, symSize: 0x27 }
+  - { offset: 0x8E6A8, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer setValue:forHTTPHeaderField:]', symObjAddr: 0x163C, symBinAddr: 0xFE4B, symSize: 0xDE }
+  - { offset: 0x8E7D5, size: 0x8, addend: 0x0, symName: '___57-[RGLCHTTPRequestSerializer setValue:forHTTPHeaderField:]_block_invoke', symObjAddr: 0x171A, symBinAddr: 0xFF29, symSize: 0x55 }
+  - { offset: 0x8E858, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer valueForHTTPHeaderField:]', symObjAddr: 0x17C7, symBinAddr: 0xFF7E, symSize: 0x13F }
+  - { offset: 0x8E954, size: 0x8, addend: 0x0, symName: '___53-[RGLCHTTPRequestSerializer valueForHTTPHeaderField:]_block_invoke', symObjAddr: 0x1906, symBinAddr: 0x100BD, symSize: 0x71 }
+  - { offset: 0x8E9E3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r, symObjAddr: 0x1977, symBinAddr: 0x1012E, symSize: 0x44 }
+  - { offset: 0x8EA24, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer clearAuthorizationHeader]', symObjAddr: 0x19EE, symBinAddr: 0x10172, symSize: 0x71 }
+  - { offset: 0x8EA94, size: 0x8, addend: 0x0, symName: '___53-[RGLCHTTPRequestSerializer clearAuthorizationHeader]_block_invoke', symObjAddr: 0x1A5F, symBinAddr: 0x101E3, symSize: 0x48 }
+  - { offset: 0x8EAF7, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer requestWithMethod:URLString:parameters:error:]', symObjAddr: 0x1AA7, symBinAddr: 0x1022B, symSize: 0x1B1 }
+  - { offset: 0x8ED61, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]', symObjAddr: 0x1C58, symBinAddr: 0x103DC, symSize: 0x3A0 }
+  - { offset: 0x8F0B9, size: 0x8, addend: 0x0, symName: '___78-[RGLCHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke', symObjAddr: 0x1FF8, symBinAddr: 0x1077C, symSize: 0x8B }
+  - { offset: 0x8F1B2, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer stringEncoding]', symObjAddr: 0x20CD, symBinAddr: 0x10807, symSize: 0xA }
+  - { offset: 0x8F1E7, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer setStringEncoding:]', symObjAddr: 0x20D7, symBinAddr: 0x10811, symSize: 0xA }
+  - { offset: 0x8F224, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer allowsCellularAccess]', symObjAddr: 0x20E1, symBinAddr: 0x1081B, symSize: 0x9 }
+  - { offset: 0x8F259, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer setAllowsCellularAccess:]', symObjAddr: 0x20EA, symBinAddr: 0x10824, symSize: 0x9 }
+  - { offset: 0x8F296, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer cachePolicy]', symObjAddr: 0x20F3, symBinAddr: 0x1082D, symSize: 0xA }
+  - { offset: 0x8F2CB, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer setCachePolicy:]', symObjAddr: 0x20FD, symBinAddr: 0x10837, symSize: 0xA }
+  - { offset: 0x8F308, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer HTTPShouldHandleCookies]', symObjAddr: 0x2107, symBinAddr: 0x10841, symSize: 0x9 }
+  - { offset: 0x8F33D, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer setHTTPShouldHandleCookies:]', symObjAddr: 0x2110, symBinAddr: 0x1084A, symSize: 0x9 }
+  - { offset: 0x8F37A, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer HTTPShouldUsePipelining]', symObjAddr: 0x2119, symBinAddr: 0x10853, symSize: 0x9 }
+  - { offset: 0x8F3AF, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer setHTTPShouldUsePipelining:]', symObjAddr: 0x2122, symBinAddr: 0x1085C, symSize: 0x9 }
+  - { offset: 0x8F3EC, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer networkServiceType]', symObjAddr: 0x212B, symBinAddr: 0x10865, symSize: 0xA }
+  - { offset: 0x8F421, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer setNetworkServiceType:]', symObjAddr: 0x2135, symBinAddr: 0x1086F, symSize: 0xA }
+  - { offset: 0x8F45E, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer timeoutInterval]', symObjAddr: 0x213F, symBinAddr: 0x10879, symSize: 0xB }
+  - { offset: 0x8F493, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer setTimeoutInterval:]', symObjAddr: 0x214A, symBinAddr: 0x10884, symSize: 0xB }
+  - { offset: 0x8F4D0, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer HTTPMethodsEncodingParametersInURI]', symObjAddr: 0x2155, symBinAddr: 0x1088F, symSize: 0xA }
+  - { offset: 0x8F505, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer setHTTPMethodsEncodingParametersInURI:]', symObjAddr: 0x215F, symBinAddr: 0x10899, symSize: 0x11 }
+  - { offset: 0x8F546, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer mutableHTTPRequestHeaders]', symObjAddr: 0x2170, symBinAddr: 0x108AA, symSize: 0xA }
+  - { offset: 0x8F57B, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer setMutableHTTPRequestHeaders:]', symObjAddr: 0x217A, symBinAddr: 0x108B4, symSize: 0x11 }
+  - { offset: 0x8F5BC, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer requestHeaderModificationQueue]', symObjAddr: 0x218B, symBinAddr: 0x108C5, symSize: 0xA }
+  - { offset: 0x8F5F1, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer setRequestHeaderModificationQueue:]', symObjAddr: 0x2195, symBinAddr: 0x108CF, symSize: 0x11 }
+  - { offset: 0x8F632, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPRequestSerializer .cxx_destruct]', symObjAddr: 0x21A6, symBinAddr: 0x108E0, symSize: 0x33 }
+  - { offset: 0x8F665, size: 0x8, addend: 0x0, symName: '+[RGLCJSONRequestSerializer serializer]', symObjAddr: 0x21D9, symBinAddr: 0x10913, symSize: 0x14 }
+  - { offset: 0x8F6B6, size: 0x8, addend: 0x0, symName: '+[RGLCJSONRequestSerializer serializerWithWritingOptions:]', symObjAddr: 0x21ED, symBinAddr: 0x10927, symSize: 0x31 }
+  - { offset: 0x8F724, size: 0x8, addend: 0x0, symName: '-[RGLCJSONRequestSerializer requestBySerializingRequest:withParameters:error:]', symObjAddr: 0x221E, symBinAddr: 0x10958, symSize: 0x3E6 }
+  - { offset: 0x8FA53, size: 0x8, addend: 0x0, symName: '___78-[RGLCJSONRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke', symObjAddr: 0x2604, symBinAddr: 0x10D3E, symSize: 0x8B }
+  - { offset: 0x8FB4D, size: 0x8, addend: 0x0, symName: '-[RGLCJSONRequestSerializer writingOptions]', symObjAddr: 0x268F, symBinAddr: 0x10DC9, symSize: 0x11 }
+  - { offset: 0x8FB82, size: 0x8, addend: 0x0, symName: '-[RGLCJSONRequestSerializer setWritingOptions:]', symObjAddr: 0x26A0, symBinAddr: 0x10DDA, symSize: 0x11 }
+  - { offset: 0x90085, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSynchronizedData initWithVideoSampleBuffer:audioSampleBuffer:metadataObjects:depthData:]', symObjAddr: 0x0, symBinAddr: 0x10DEB, symSize: 0xBB }
+  - { offset: 0x901C2, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSynchronizedData initWithVideoSampleBuffer:audioSampleBuffer:metadataObjects:depthData:]', symObjAddr: 0x0, symBinAddr: 0x10DEB, symSize: 0xBB }
+  - { offset: 0x9028A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSynchronizedData videoSampleBuffer]', symObjAddr: 0xBB, symBinAddr: 0x10EA6, symSize: 0xA }
+  - { offset: 0x902BF, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSynchronizedData audioSampleBuffer]', symObjAddr: 0xC5, symBinAddr: 0x10EB0, symSize: 0xA }
+  - { offset: 0x902F4, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSynchronizedData metadataObjects]', symObjAddr: 0xCF, symBinAddr: 0x10EBA, symSize: 0xA }
+  - { offset: 0x90329, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSynchronizedData depthData]', symObjAddr: 0xD9, symBinAddr: 0x10EC4, symSize: 0xA }
+  - { offset: 0x9035E, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSynchronizedData .cxx_destruct]', symObjAddr: 0xE3, symBinAddr: 0x10ECE, symSize: 0x28 }
+  - { offset: 0x90391, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSynchronizedDataPlugin sendOutputSynchronizedData:]', symObjAddr: 0x10B, symBinAddr: 0x10EF6, symSize: 0x85 }
+  - { offset: 0x90441, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSynchronizedDataPlugin onSynchoronizedDataOutput]', symObjAddr: 0x190, symBinAddr: 0x10F7B, symSize: 0xA }
+  - { offset: 0x90476, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSynchronizedDataPlugin setOnSynchoronizedDataOutput:]', symObjAddr: 0x19A, symBinAddr: 0x10F85, symSize: 0xF }
+  - { offset: 0x904B5, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSynchronizedDataPlugin .cxx_destruct]', symObjAddr: 0x1A9, symBinAddr: 0x10F94, symSize: 0x10 }
+  - { offset: 0x90571, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataDetectFacesPlugin sendOutputMetadataObjects:objects:]', symObjAddr: 0x0, symBinAddr: 0x10FA4, symSize: 0x37F }
+  - { offset: 0x906B9, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataDetectFacesPlugin sendOutputMetadataObjects:objects:]', symObjAddr: 0x0, symBinAddr: 0x10FA4, symSize: 0x37F }
+  - { offset: 0x9091C, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataDetectFacesPlugin onDetectFaces]', symObjAddr: 0x37F, symBinAddr: 0x11323, symSize: 0x11 }
+  - { offset: 0x90951, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataDetectFacesPlugin setOnDetectFaces:]', symObjAddr: 0x390, symBinAddr: 0x11334, symSize: 0x11 }
+  - { offset: 0x90990, size: 0x8, addend: 0x0, symName: '-[RGLCCameraMetadataDetectFacesPlugin .cxx_destruct]', symObjAddr: 0x3A1, symBinAddr: 0x11345, symSize: 0x13 }
+  - { offset: 0x90A48, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager init]', symObjAddr: 0x0, symBinAddr: 0x11358, symSize: 0x14 }
+  - { offset: 0x90CCA, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager init]', symObjAddr: 0x0, symBinAddr: 0x11358, symSize: 0x14 }
+  - { offset: 0x90D1C, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager initWithSessionConfiguration:]', symObjAddr: 0x14, symBinAddr: 0x1136C, symSize: 0xE7 }
+  - { offset: 0x90E2A, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager session]', symObjAddr: 0xFB, symBinAddr: 0x11453, symSize: 0xD4 }
+  - { offset: 0x90EE2, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager invalidateSessionCancelingTasks:resetSession:]', symObjAddr: 0x1CF, symBinAddr: 0x11527, symSize: 0x8E }
+  - { offset: 0x90F7C, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager dataTaskWithRequest:completionHandler:]', symObjAddr: 0x25D, symBinAddr: 0x115B5, symSize: 0x21A }
+  - { offset: 0x9118E, size: 0x8, addend: 0x0, symName: '___63-[RGLCURLSessionManager dataTaskWithRequest:completionHandler:]_block_invoke', symObjAddr: 0x477, symBinAddr: 0x117CF, symSize: 0x21D }
+  - { offset: 0x91443, size: 0x8, addend: 0x0, symName: '___63-[RGLCURLSessionManager dataTaskWithRequest:completionHandler:]_block_invoke_2', symObjAddr: 0x694, symBinAddr: 0x119EC, symSize: 0x1D }
+  - { offset: 0x914B1, size: 0x8, addend: 0x0, symName: '___63-[RGLCURLSessionManager dataTaskWithRequest:completionHandler:]_block_invoke.28', symObjAddr: 0x721, symBinAddr: 0x11A09, symSize: 0x1F }
+  - { offset: 0x91528, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x740, symBinAddr: 0x11A28, symSize: 0x4B }
+  - { offset: 0x91575, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x78B, symBinAddr: 0x11A73, symSize: 0x33 }
+  - { offset: 0x915C4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40w, symObjAddr: 0x7BE, symBinAddr: 0x11AA6, symSize: 0x36 }
+  - { offset: 0x915ED, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w, symObjAddr: 0x7F4, symBinAddr: 0x11ADC, symSize: 0x22 }
+  - { offset: 0x91618, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager downloadDataTaskWithRequest:completionHandler:]', symObjAddr: 0x816, symBinAddr: 0x11AFE, symSize: 0x21A }
+  - { offset: 0x9182A, size: 0x8, addend: 0x0, symName: '___71-[RGLCURLSessionManager downloadDataTaskWithRequest:completionHandler:]_block_invoke', symObjAddr: 0xA30, symBinAddr: 0x11D18, symSize: 0x2D8 }
+  - { offset: 0x91B4B, size: 0x8, addend: 0x0, symName: '___71-[RGLCURLSessionManager downloadDataTaskWithRequest:completionHandler:]_block_invoke_2', symObjAddr: 0xD08, symBinAddr: 0x11FF0, symSize: 0x1D }
+  - { offset: 0x91BB9, size: 0x8, addend: 0x0, symName: '___71-[RGLCURLSessionManager downloadDataTaskWithRequest:completionHandler:]_block_invoke_3', symObjAddr: 0xD25, symBinAddr: 0x1200D, symSize: 0x1F }
+  - { offset: 0x91C30, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager setSessionDidBecomeInvalidBlock:]', symObjAddr: 0xD44, symBinAddr: 0x1202C, symSize: 0x12 }
+  - { offset: 0x91C8C, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager setSessionDidReceiveAuthenticationChallengeBlock:]', symObjAddr: 0xD56, symBinAddr: 0x1203E, symSize: 0x12 }
+  - { offset: 0x91CE8, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager URLSession:didBecomeInvalidWithError:]', symObjAddr: 0xD68, symBinAddr: 0x12050, symSize: 0xA8 }
+  - { offset: 0x91DD7, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager URLSession:didReceiveChallenge:completionHandler:]', symObjAddr: 0xE10, symBinAddr: 0x120F8, symSize: 0xA0 }
+  - { offset: 0x91EB9, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager setSession:]', symObjAddr: 0xEB0, symBinAddr: 0x12198, symSize: 0x11 }
+  - { offset: 0x91EFA, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager operationQueue]', symObjAddr: 0xEC1, symBinAddr: 0x121A9, symSize: 0xA }
+  - { offset: 0x91F2F, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager setOperationQueue:]', symObjAddr: 0xECB, symBinAddr: 0x121B3, symSize: 0x11 }
+  - { offset: 0x91F70, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager responseSerializer]', symObjAddr: 0xEDC, symBinAddr: 0x121C4, symSize: 0xA }
+  - { offset: 0x91FA5, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager setResponseSerializer:]', symObjAddr: 0xEE6, symBinAddr: 0x121CE, symSize: 0x11 }
+  - { offset: 0x91FE6, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager requestInterceptor]', symObjAddr: 0xEF7, symBinAddr: 0x121DF, symSize: 0xA }
+  - { offset: 0x9201B, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager setRequestInterceptor:]', symObjAddr: 0xF01, symBinAddr: 0x121E9, symSize: 0x11 }
+  - { offset: 0x9205C, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager sessionConfiguration]', symObjAddr: 0xF12, symBinAddr: 0x121FA, symSize: 0xA }
+  - { offset: 0x92091, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager setSessionConfiguration:]', symObjAddr: 0xF1C, symBinAddr: 0x12204, symSize: 0x11 }
+  - { offset: 0x920D2, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager sessionDidBecomeInvalid]', symObjAddr: 0xF2D, symBinAddr: 0x12215, symSize: 0xA }
+  - { offset: 0x92107, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager setSessionDidBecomeInvalid:]', symObjAddr: 0xF37, symBinAddr: 0x1221F, symSize: 0xF }
+  - { offset: 0x92146, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager sessionDidReceiveAuthenticationChallenge]', symObjAddr: 0xF46, symBinAddr: 0x1222E, symSize: 0xA }
+  - { offset: 0x9217B, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager setSessionDidReceiveAuthenticationChallenge:]', symObjAddr: 0xF50, symBinAddr: 0x12238, symSize: 0xF }
+  - { offset: 0x921BA, size: 0x8, addend: 0x0, symName: '-[RGLCURLSessionManager .cxx_destruct]', symObjAddr: 0xF5F, symBinAddr: 0x12247, symSize: 0x5F }
+  - { offset: 0x9265F, size: 0x8, addend: 0x0, symName: _RGLCJSONObjectByRemovingKeysWithNullValues, symObjAddr: 0x0, symBinAddr: 0x122A6, symSize: 0x5A1 }
+  - { offset: 0x92679, size: 0x8, addend: 0x0, symName: _RGLResponseSerializationErrorDomain, symObjAddr: 0x1630, symBinAddr: 0x24898, symSize: 0x0 }
+  - { offset: 0x92699, size: 0x8, addend: 0x0, symName: _RGLCNetworkingErrorFailingURLKey, symObjAddr: 0x1638, symBinAddr: 0x248A0, symSize: 0x0 }
+  - { offset: 0x926B4, size: 0x8, addend: 0x0, symName: _RGLCNetworkingErrorFailingURLResponseKey, symObjAddr: 0x1640, symBinAddr: 0x248A8, symSize: 0x0 }
+  - { offset: 0x926CA, size: 0x8, addend: 0x0, symName: _RGLCNetworkingErrorFailingURLResponseDataKey, symObjAddr: 0x1648, symBinAddr: 0x248B0, symSize: 0x0 }
+  - { offset: 0x92790, size: 0x8, addend: 0x0, symName: _RGLCJSONObjectByRemovingKeysWithNullValues, symObjAddr: 0x0, symBinAddr: 0x122A6, symSize: 0x5A1 }
+  - { offset: 0x92A9A, size: 0x8, addend: 0x0, symName: '+[RGLCHTTPResponseSerializer serializer]', symObjAddr: 0x5A1, symBinAddr: 0x12847, symSize: 0x12 }
+  - { offset: 0x92AD1, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPResponseSerializer init]', symObjAddr: 0x5B3, symBinAddr: 0x12859, symSize: 0xAB }
+  - { offset: 0x92B7E, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPResponseSerializer validateResponse:data:error:]', symObjAddr: 0x65E, symBinAddr: 0x12904, symSize: 0x764 }
+  - { offset: 0x9315A, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPResponseSerializer responseObjectForResponse:data:error:]', symObjAddr: 0xDC2, symBinAddr: 0x13068, symSize: 0x49 }
+  - { offset: 0x931F8, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPResponseSerializer acceptableStatusCodes]', symObjAddr: 0xE0B, symBinAddr: 0x130B1, symSize: 0xA }
+  - { offset: 0x9322D, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPResponseSerializer setAcceptableStatusCodes:]', symObjAddr: 0xE15, symBinAddr: 0x130BB, symSize: 0xF }
+  - { offset: 0x9326C, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPResponseSerializer acceptableContentTypes]', symObjAddr: 0xE24, symBinAddr: 0x130CA, symSize: 0xA }
+  - { offset: 0x932A1, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPResponseSerializer setAcceptableContentTypes:]', symObjAddr: 0xE2E, symBinAddr: 0x130D4, symSize: 0xF }
+  - { offset: 0x932E0, size: 0x8, addend: 0x0, symName: '-[RGLCHTTPResponseSerializer .cxx_destruct]', symObjAddr: 0xE3D, symBinAddr: 0x130E3, symSize: 0x28 }
+  - { offset: 0x93313, size: 0x8, addend: 0x0, symName: '+[RGLCJSONResponseSerializer serializer]', symObjAddr: 0xE65, symBinAddr: 0x1310B, symSize: 0x14 }
+  - { offset: 0x93363, size: 0x8, addend: 0x0, symName: '+[RGLCJSONResponseSerializer serializerWithReadingOptions:]', symObjAddr: 0xE79, symBinAddr: 0x1311F, symSize: 0x31 }
+  - { offset: 0x933CE, size: 0x8, addend: 0x0, symName: '-[RGLCJSONResponseSerializer init]', symObjAddr: 0xEAA, symBinAddr: 0x13150, symSize: 0xAC }
+  - { offset: 0x93461, size: 0x8, addend: 0x0, symName: '-[RGLCJSONResponseSerializer responseObjectForResponse:data:error:]', symObjAddr: 0xF56, symBinAddr: 0x131FC, symSize: 0x3CD }
+  - { offset: 0x937B6, size: 0x8, addend: 0x0, symName: '-[RGLCJSONResponseSerializer readingOptions]', symObjAddr: 0x1323, symBinAddr: 0x135C9, symSize: 0x11 }
+  - { offset: 0x937EB, size: 0x8, addend: 0x0, symName: '-[RGLCJSONResponseSerializer setReadingOptions:]', symObjAddr: 0x1334, symBinAddr: 0x135DA, symSize: 0x11 }
+  - { offset: 0x93828, size: 0x8, addend: 0x0, symName: '-[RGLCJSONResponseSerializer removesKeysWithNullValues]', symObjAddr: 0x1345, symBinAddr: 0x135EB, symSize: 0x10 }
+  - { offset: 0x9385D, size: 0x8, addend: 0x0, symName: '-[RGLCJSONResponseSerializer setRemovesKeysWithNullValues:]', symObjAddr: 0x1355, symBinAddr: 0x135FB, symSize: 0x10 }
+  - { offset: 0x93954, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput initWithConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x1360B, symSize: 0x172 }
+  - { offset: 0x93D0A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput initWithConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x1360B, symSize: 0x172 }
+  - { offset: 0x93E4C, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput init]', symObjAddr: 0x172, symBinAddr: 0x1377D, symSize: 0x40 }
+  - { offset: 0x93EAB, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput setSelectedMetadataObjectTypes:]', symObjAddr: 0x1B2, symBinAddr: 0x137BD, symSize: 0xEF }
+  - { offset: 0x93FCE, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput setupCaptureOutput:queue:]', symObjAddr: 0x2A1, symBinAddr: 0x138AC, symSize: 0xEAE }
+  - { offset: 0x94BF6, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput capturePhotoWithTask:]', symObjAddr: 0x114F, symBinAddr: 0x1475A, symSize: 0x69 }
+  - { offset: 0x94C8E, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput capturePhotoWithSettings:completion:]', symObjAddr: 0x11B8, symBinAddr: 0x147C3, symSize: 0x8B }
+  - { offset: 0x94D65, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput capturePhotoWithCompletion:]', symObjAddr: 0x1243, symBinAddr: 0x1484E, symSize: 0x69 }
+  - { offset: 0x94DFD, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput addMetadataPlugin:forKey:]', symObjAddr: 0x12AC, symBinAddr: 0x148B7, symSize: 0x8B }
+  - { offset: 0x94ED4, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput removeMetadataPluginForKey:]', symObjAddr: 0x1337, symBinAddr: 0x14942, symSize: 0x69 }
+  - { offset: 0x94F6C, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput addSampleBufferPlugin:forKey:]', symObjAddr: 0x13A0, symBinAddr: 0x149AB, symSize: 0x8B }
+  - { offset: 0x95043, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput removeSampleBufferPluginForKey:]', symObjAddr: 0x142B, symBinAddr: 0x14A36, symSize: 0x69 }
+  - { offset: 0x950DB, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput addSynchronizedDataPlugin:forKey:]', symObjAddr: 0x1494, symBinAddr: 0x14A9F, symSize: 0x8B }
+  - { offset: 0x951B2, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput removedSynchronizedDataPlugin:]', symObjAddr: 0x151F, symBinAddr: 0x14B2A, symSize: 0x69 }
+  - { offset: 0x9524A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput captureOutput:didOutputMetadataObjects:fromConnection:]', symObjAddr: 0x1588, symBinAddr: 0x14B93, symSize: 0x114 }
+  - { offset: 0x9539A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput captureOutput:didOutputSampleBuffer:fromConnection:]', symObjAddr: 0x169C, symBinAddr: 0x14CA7, symSize: 0xF4 }
+  - { offset: 0x954C2, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput captureOutput:didDropSampleBuffer:fromConnection:]', symObjAddr: 0x1790, symBinAddr: 0x14D9B, symSize: 0xF4 }
+  - { offset: 0x955EA, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput dataOutputSynchronizer:didOutputSynchronizedDataCollection:]', symObjAddr: 0x1884, symBinAddr: 0x14E8F, symSize: 0x8DA }
+  - { offset: 0x95F11, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput updateMetadataOutput:selectedMetadataObjectTypes:]', symObjAddr: 0x215E, symBinAddr: 0x15769, symSize: 0x29C }
+  - { offset: 0x96182, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput imageOutput]', symObjAddr: 0x23FA, symBinAddr: 0x15A05, symSize: 0xA }
+  - { offset: 0x961B7, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput setImageOutput:]', symObjAddr: 0x2404, symBinAddr: 0x15A0F, symSize: 0x11 }
+  - { offset: 0x961F8, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput metadataOutput]', symObjAddr: 0x2415, symBinAddr: 0x15A20, symSize: 0xA }
+  - { offset: 0x9622D, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput setMetadataOutput:]', symObjAddr: 0x241F, symBinAddr: 0x15A2A, symSize: 0x11 }
+  - { offset: 0x9626E, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput videoOutput]', symObjAddr: 0x2430, symBinAddr: 0x15A3B, symSize: 0xA }
+  - { offset: 0x962A3, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput setVideoOutput:]', symObjAddr: 0x243A, symBinAddr: 0x15A45, symSize: 0x11 }
+  - { offset: 0x962E4, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput audioOutput]', symObjAddr: 0x244B, symBinAddr: 0x15A56, symSize: 0xA }
+  - { offset: 0x96319, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput setAudioOutput:]', symObjAddr: 0x2455, symBinAddr: 0x15A60, symSize: 0x11 }
+  - { offset: 0x9635A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput depthDataOutput]', symObjAddr: 0x2466, symBinAddr: 0x15A71, symSize: 0xA }
+  - { offset: 0x9638F, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput setDepthDataOutput:]', symObjAddr: 0x2470, symBinAddr: 0x15A7B, symSize: 0x11 }
+  - { offset: 0x963D0, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput selectedMetadataObjectTypes]', symObjAddr: 0x2481, symBinAddr: 0x15A8C, symSize: 0xA }
+  - { offset: 0x96405, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput configuration]', symObjAddr: 0x248B, symBinAddr: 0x15A96, symSize: 0xA }
+  - { offset: 0x9643A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput synchronizer]', symObjAddr: 0x2495, symBinAddr: 0x15AA0, symSize: 0xA }
+  - { offset: 0x9646F, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput setSynchronizer:]', symObjAddr: 0x249F, symBinAddr: 0x15AAA, symSize: 0x11 }
+  - { offset: 0x964B0, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput sampleBufferPluginTable]', symObjAddr: 0x24B0, symBinAddr: 0x15ABB, symSize: 0xA }
+  - { offset: 0x964E5, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput setSampleBufferPluginTable:]', symObjAddr: 0x24BA, symBinAddr: 0x15AC5, symSize: 0x11 }
+  - { offset: 0x96526, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput synchronizedDataPluginTable]', symObjAddr: 0x24CB, symBinAddr: 0x15AD6, symSize: 0xA }
+  - { offset: 0x9655B, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput setSynchronizedDataPluginTable:]', symObjAddr: 0x24D5, symBinAddr: 0x15AE0, symSize: 0x11 }
+  - { offset: 0x9659C, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput metadataPluginTable]', symObjAddr: 0x24E6, symBinAddr: 0x15AF1, symSize: 0xA }
+  - { offset: 0x965D1, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput setMetadataPluginTable:]', symObjAddr: 0x24F0, symBinAddr: 0x15AFB, symSize: 0x11 }
+  - { offset: 0x96612, size: 0x8, addend: 0x0, symName: '-[RGLCCameraOutput .cxx_destruct]', symObjAddr: 0x2501, symBinAddr: 0x15B0C, symSize: 0x8B }
+  - { offset: 0x969FF, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput init]', symObjAddr: 0x0, symBinAddr: 0x15B97, symSize: 0x80 }
+  - { offset: 0x96A5C, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput init]', symObjAddr: 0x0, symBinAddr: 0x15B97, symSize: 0x80 }
+  - { offset: 0x96AB7, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput capturePhotoWithTask:]', symObjAddr: 0x80, symBinAddr: 0x15C17, symSize: 0x1F2 }
+  - { offset: 0x96CB5, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput capturePhotoWithSettings:completion:]', symObjAddr: 0x272, symBinAddr: 0x15E09, symSize: 0xFB }
+  - { offset: 0x96DEF, size: 0x8, addend: 0x0, symName: '___68-[RGLCCameraCapturePhotoOutput capturePhotoWithSettings:completion:]_block_invoke', symObjAddr: 0x36D, symBinAddr: 0x15F04, symSize: 0x15 }
+  - { offset: 0x96E73, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput capturePhotoWithCompletion:]', symObjAddr: 0x3A8, symBinAddr: 0x15F19, symSize: 0xBF }
+  - { offset: 0x96F58, size: 0x8, addend: 0x0, symName: '___59-[RGLCCameraCapturePhotoOutput capturePhotoWithCompletion:]_block_invoke', symObjAddr: 0x467, symBinAddr: 0x15FD8, symSize: 0x15 }
+  - { offset: 0x96FDC, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput captureOutput:willCapturePhotoForResolvedSettings:]', symObjAddr: 0x47C, symBinAddr: 0x15FED, symSize: 0x122 }
+  - { offset: 0x9711C, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput captureOutput:didFinishProcessingPhoto:error:]', symObjAddr: 0x59E, symBinAddr: 0x1610F, symSize: 0x1CC }
+  - { offset: 0x97325, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput captureOutput:didFinishCaptureForResolvedSettings:error:]', symObjAddr: 0x76A, symBinAddr: 0x162DB, symSize: 0x2F1 }
+  - { offset: 0x97615, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput photoOutput]', symObjAddr: 0xA5B, symBinAddr: 0x165CC, symSize: 0xA }
+  - { offset: 0x9764A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput setPhotoOutput:]', symObjAddr: 0xA65, symBinAddr: 0x165D6, symSize: 0x11 }
+  - { offset: 0x9768B, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput tasks]', symObjAddr: 0xA76, symBinAddr: 0x165E7, symSize: 0xA }
+  - { offset: 0x976C0, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput setTasks:]', symObjAddr: 0xA80, symBinAddr: 0x165F1, symSize: 0x11 }
+  - { offset: 0x97701, size: 0x8, addend: 0x0, symName: '-[RGLCCameraCapturePhotoOutput .cxx_destruct]', symObjAddr: 0xA91, symBinAddr: 0x16602, symSize: 0x28 }
+  - { offset: 0x97A7C, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata init]', symObjAddr: 0x0, symBinAddr: 0x1662A, symSize: 0x66 }
+  - { offset: 0x97B77, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata init]', symObjAddr: 0x0, symBinAddr: 0x1662A, symSize: 0x66 }
+  - { offset: 0x97BC6, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata sdkBundle]', symObjAddr: 0x66, symBinAddr: 0x16690, symSize: 0xA8 }
+  - { offset: 0x97C71, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata platform]', symObjAddr: 0x10E, symBinAddr: 0x16738, symSize: 0x90 }
+  - { offset: 0x97D1C, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata osVersion]', symObjAddr: 0x19E, symBinAddr: 0x167C8, symSize: 0x90 }
+  - { offset: 0x97DC7, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata deviceModel]', symObjAddr: 0x22E, symBinAddr: 0x16858, symSize: 0xAF }
+  - { offset: 0x97E8F, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata sdkVersion]', symObjAddr: 0x2DD, symBinAddr: 0x16907, symSize: 0xBA }
+  - { offset: 0x97F5E, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata sdkBundleIdentifier]', symObjAddr: 0x397, symBinAddr: 0x169C1, symSize: 0x89 }
+  - { offset: 0x9800D, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata hostAppVersion]', symObjAddr: 0x420, symBinAddr: 0x16A4A, symSize: 0x1C4 }
+  - { offset: 0x981FD, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata hostAppBundleIdentifier]', symObjAddr: 0x5E4, symBinAddr: 0x16C0E, symSize: 0x89 }
+  - { offset: 0x982AC, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata batteryLevelPercent]', symObjAddr: 0x66D, symBinAddr: 0x16C97, symSize: 0x138 }
+  - { offset: 0x983C9, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata displayBrightnessLevelPercent]', symObjAddr: 0x7A5, symBinAddr: 0x16DCF, symSize: 0x7C }
+  - { offset: 0x98434, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata lastLocation]', symObjAddr: 0x821, symBinAddr: 0x16E4B, symSize: 0x11A }
+  - { offset: 0x98531, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata hostAppBundle]', symObjAddr: 0x93B, symBinAddr: 0x16F65, symSize: 0xA }
+  - { offset: 0x98566, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata locationManager]', symObjAddr: 0x945, symBinAddr: 0x16F6F, symSize: 0xA }
+  - { offset: 0x9859B, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata setLocationManager:]', symObjAddr: 0x94F, symBinAddr: 0x16F79, symSize: 0x11 }
+  - { offset: 0x985DC, size: 0x8, addend: 0x0, symName: '-[RGLCEnvironmentMetadata .cxx_destruct]', symObjAddr: 0x960, symBinAddr: 0x16F8A, symSize: 0x28 }
+  - { offset: 0x9866F, size: 0x8, addend: 0x0, symName: '+[AVCaptureConnection(RGLCUIDeviceOrientation) rglc_videoOrientationFrom:]', symObjAddr: 0x0, symBinAddr: 0x16FB2, symSize: 0x17 }
+  - { offset: 0x9867D, size: 0x8, addend: 0x0, symName: '+[AVCaptureConnection(RGLCUIDeviceOrientation) rglc_videoOrientationFrom:]', symObjAddr: 0x0, symBinAddr: 0x16FB2, symSize: 0x17 }
+  - { offset: 0x9871E, size: 0x8, addend: 0x0, symName: '-[NSError(RGLCAdditions) rglc_firstErrorWithDomain:]', symObjAddr: 0x0, symBinAddr: 0x16FC9, symSize: 0xD3 }
+  - { offset: 0x9872C, size: 0x8, addend: 0x0, symName: '-[NSError(RGLCAdditions) rglc_firstErrorWithDomain:]', symObjAddr: 0x0, symBinAddr: 0x16FC9, symSize: 0xD3 }
+  - { offset: 0x9880F, size: 0x8, addend: 0x0, symName: '-[NSError(RGLCAdditions) rglc_underlyingError]', symObjAddr: 0xD3, symBinAddr: 0x1709C, symSize: 0x8D }
+  - { offset: 0x9891E, size: 0x8, addend: 0x0, symName: _RGLCStringFromNetworkReachabilityStatus, symObjAddr: 0x0, symBinAddr: 0x17129, symSize: 0x11D }
+  - { offset: 0x98938, size: 0x8, addend: 0x0, symName: _RGLCNetworkingReachabilityDidChangeNotification, symObjAddr: 0xE00, symBinAddr: 0x248E8, symSize: 0x0 }
+  - { offset: 0x98958, size: 0x8, addend: 0x0, symName: _RGLCNetworkingReachabilityNotificationStatusItem, symObjAddr: 0xE08, symBinAddr: 0x248F0, symSize: 0x0 }
+  - { offset: 0x98962, size: 0x8, addend: 0x0, symName: '+[RGLCNetworkReachabilityManager sharedManager]', symObjAddr: 0x11D, symBinAddr: 0x17246, symSize: 0x63 }
+  - { offset: 0x9898C, size: 0x8, addend: 0x0, symName: _sharedManager._sharedManager, symObjAddr: 0x7D38, symBinAddr: 0x303F8, symSize: 0x0 }
+  - { offset: 0x989A2, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0x7D40, symBinAddr: 0x30400, symSize: 0x0 }
+  - { offset: 0x98BAE, size: 0x8, addend: 0x0, symName: _RGLCStringFromNetworkReachabilityStatus, symObjAddr: 0x0, symBinAddr: 0x17129, symSize: 0x11D }
+  - { offset: 0x98C69, size: 0x8, addend: 0x0, symName: '___47+[RGLCNetworkReachabilityManager sharedManager]_block_invoke', symObjAddr: 0x180, symBinAddr: 0x172A9, symSize: 0x32 }
+  - { offset: 0x98CC0, size: 0x8, addend: 0x0, symName: '+[RGLCNetworkReachabilityManager managerForDomain:]', symObjAddr: 0x1B2, symBinAddr: 0x172DB, symSize: 0x76 }
+  - { offset: 0x98DAA, size: 0x8, addend: 0x0, symName: '+[RGLCNetworkReachabilityManager managerForAddress:]', symObjAddr: 0x228, symBinAddr: 0x17351, symSize: 0x51 }
+  - { offset: 0x98E69, size: 0x8, addend: 0x0, symName: '+[RGLCNetworkReachabilityManager manager]', symObjAddr: 0x279, symBinAddr: 0x173A2, symSize: 0x3D }
+  - { offset: 0x98EBB, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager initWithReachability:]', symObjAddr: 0x2B6, symBinAddr: 0x173DF, symSize: 0x78 }
+  - { offset: 0x98F6E, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager init]', symObjAddr: 0x32E, symBinAddr: 0x17457, symSize: 0x44 }
+  - { offset: 0x98FAD, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager dealloc]', symObjAddr: 0x372, symBinAddr: 0x1749B, symSize: 0x4C }
+  - { offset: 0x99003, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager isReachable]', symObjAddr: 0x3BE, symBinAddr: 0x174E7, symSize: 0x39 }
+  - { offset: 0x9905B, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager isReachableViaWWAN]', symObjAddr: 0x3F7, symBinAddr: 0x17520, symSize: 0x1A }
+  - { offset: 0x990A7, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager isReachableViaWiFi]', symObjAddr: 0x411, symBinAddr: 0x1753A, symSize: 0x1A }
+  - { offset: 0x990F3, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager startMonitoring]', symObjAddr: 0x42B, symBinAddr: 0x17554, symSize: 0x1C1 }
+  - { offset: 0x992E7, size: 0x8, addend: 0x0, symName: '___49-[RGLCNetworkReachabilityManager startMonitoring]_block_invoke', symObjAddr: 0x5EC, symBinAddr: 0x17715, symSize: 0x93 }
+  - { offset: 0x993B5, size: 0x8, addend: 0x0, symName: _RGLCNetworkReachabilityRetainCallback, symObjAddr: 0x69F, symBinAddr: 0x177A8, symSize: 0xA }
+  - { offset: 0x99407, size: 0x8, addend: 0x0, symName: _RGLCNetworkReachabilityReleaseCallback, symObjAddr: 0x6A9, symBinAddr: 0x177B2, symSize: 0x11 }
+  - { offset: 0x99448, size: 0x8, addend: 0x0, symName: _RGLCNetworkReachabilityCallback, symObjAddr: 0x6BA, symBinAddr: 0x177C3, symSize: 0xF }
+  - { offset: 0x994AA, size: 0x8, addend: 0x0, symName: _RGLCPostReachabilityStatusChange, symObjAddr: 0x706, symBinAddr: 0x1780F, symSize: 0xAC }
+  - { offset: 0x9958E, size: 0x8, addend: 0x0, symName: '___49-[RGLCNetworkReachabilityManager startMonitoring]_block_invoke.50', symObjAddr: 0x6C9, symBinAddr: 0x177D2, symSize: 0x3D }
+  - { offset: 0x996AB, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager stopMonitoring]', symObjAddr: 0x807, symBinAddr: 0x178BB, symSize: 0x51 }
+  - { offset: 0x9974E, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager localizedNetworkReachabilityStatusString]', symObjAddr: 0x858, symBinAddr: 0x1790C, symSize: 0x1A }
+  - { offset: 0x997A8, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager setReachabilityStatusChangeBlock:]', symObjAddr: 0x872, symBinAddr: 0x17926, symSize: 0x12 }
+  - { offset: 0x99804, size: 0x8, addend: 0x0, symName: '+[RGLCNetworkReachabilityManager keyPathsForValuesAffectingValueForKey:]', symObjAddr: 0x884, symBinAddr: 0x17938, symSize: 0xD4 }
+  - { offset: 0x998CC, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager networkReachabilityStatus]', symObjAddr: 0x958, symBinAddr: 0x17A0C, symSize: 0xA }
+  - { offset: 0x99901, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager setNetworkReachabilityStatus:]', symObjAddr: 0x962, symBinAddr: 0x17A16, symSize: 0xA }
+  - { offset: 0x9993E, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager networkReachability]', symObjAddr: 0x96C, symBinAddr: 0x17A20, symSize: 0xA }
+  - { offset: 0x99973, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager networkReachabilityStatusBlock]', symObjAddr: 0x976, symBinAddr: 0x17A2A, symSize: 0xA }
+  - { offset: 0x999A8, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager setNetworkReachabilityStatusBlock:]', symObjAddr: 0x980, symBinAddr: 0x17A34, symSize: 0xF }
+  - { offset: 0x999E7, size: 0x8, addend: 0x0, symName: '-[RGLCNetworkReachabilityManager .cxx_destruct]', symObjAddr: 0x98F, symBinAddr: 0x17A43, symSize: 0x10 }
+  - { offset: 0x99A1A, size: 0x8, addend: 0x0, symName: ___RGLCPostReachabilityStatusChange_block_invoke, symObjAddr: 0x99F, symBinAddr: 0x17A53, symSize: 0x120 }
+  - { offset: 0x99DF7, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIViewBuilder init]', symObjAddr: 0x0, symBinAddr: 0x17B73, symSize: 0x56 }
+  - { offset: 0x99EBD, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIViewBuilder init]', symObjAddr: 0x0, symBinAddr: 0x17B73, symSize: 0x56 }
+  - { offset: 0x99F00, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIViewBuilder rebuildUIForContentView:contentBackView:withJSON:]', symObjAddr: 0x56, symBinAddr: 0x17BC9, symSize: 0x5A1 }
+  - { offset: 0x9A382, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIViewBuilder buildContainerForObjectWithJSON:]', symObjAddr: 0x5F7, symBinAddr: 0x1816A, symSize: 0x1C7 }
+  - { offset: 0x9A568, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIViewBuilder setupConstraintsForContainer:andContentView:withJSON:]', symObjAddr: 0x7BE, symBinAddr: 0x18331, symSize: 0x8DA }
+  - { offset: 0x9AE76, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIViewBuilder setupConstraintsForView:inContainer:withJSON:]', symObjAddr: 0x1098, symBinAddr: 0x18C0B, symSize: 0x4DA }
+  - { offset: 0x9B30D, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIViewBuilder buttonPressed:]', symObjAddr: 0x1572, symBinAddr: 0x190E5, symSize: 0xCC }
+  - { offset: 0x9B3DD, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIViewBuilder delegate]', symObjAddr: 0x163E, symBinAddr: 0x191B1, symSize: 0x16 }
+  - { offset: 0x9B414, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIViewBuilder setDelegate:]', symObjAddr: 0x1654, symBinAddr: 0x191C7, symSize: 0x11 }
+  - { offset: 0x9B455, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIViewBuilder objectsBuilder]', symObjAddr: 0x1665, symBinAddr: 0x191D8, symSize: 0xA }
+  - { offset: 0x9B48A, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIViewBuilder setObjectsBuilder:]', symObjAddr: 0x166F, symBinAddr: 0x191E2, symSize: 0x11 }
+  - { offset: 0x9B4CB, size: 0x8, addend: 0x0, symName: '-[RGLCustomUIViewBuilder .cxx_destruct]', symObjAddr: 0x1680, symBinAddr: 0x191F3, symSize: 0x26 }
+  - { offset: 0x9B590, size: 0x8, addend: 0x0, symName: '-[CIImage(RGLCUIInterfaceOrientation) rglc_applyingUIInterfaceOrientation:]', symObjAddr: 0x0, symBinAddr: 0x19219, symSize: 0x61 }
+  - { offset: 0x9B5E9, size: 0x8, addend: 0x0, symName: '-[CIImage(RGLCUIInterfaceOrientation) rglc_applyingUIInterfaceOrientation:]', symObjAddr: 0x0, symBinAddr: 0x19219, symSize: 0x61 }
+  - { offset: 0x9B660, size: 0x8, addend: 0x0, symName: '+[CIImage(RGLCUIInterfaceOrientation) rglc_imageOrientationFromUIInterfaceOrienation:]', symObjAddr: 0x61, symBinAddr: 0x1927A, symSize: 0x21 }
+  - { offset: 0x9B716, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTaskRequestSerializer requestWithURL:target:error:]', symObjAddr: 0x0, symBinAddr: 0x1929B, symSize: 0x647 }
+  - { offset: 0x9B730, size: 0x8, addend: 0x0, symName: _RGLCProviderTaskRequestSerializerErrorDomain, symObjAddr: 0xA10, symBinAddr: 0x24958, symSize: 0x0 }
+  - { offset: 0x9B850, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTaskRequestSerializer requestWithURL:target:error:]', symObjAddr: 0x0, symBinAddr: 0x1929B, symSize: 0x647 }
+  - { offset: 0x9BEDB, size: 0x8, addend: 0x0, symName: '___65-[RGLCProviderTaskRequestSerializer requestWithURL:target:error:]_block_invoke', symObjAddr: 0x647, symBinAddr: 0x198E2, symSize: 0x8B }
+  - { offset: 0x9BFBE, size: 0x8, addend: 0x0, symName: '___65-[RGLCProviderTaskRequestSerializer requestWithURL:target:error:]_block_invoke.63', symObjAddr: 0x6F0, symBinAddr: 0x1996D, symSize: 0x8B }
+  - { offset: 0x9C0A1, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTaskRequestSerializer jsonEncodedDataWithParameters:error:]', symObjAddr: 0x77B, symBinAddr: 0x199F8, symSize: 0x77 }
+  - { offset: 0x9C14D, size: 0x8, addend: 0x0, symName: '-[RGLCProviderTaskRequestSerializer httpMethodFromMethod:]', symObjAddr: 0x7F2, symBinAddr: 0x19A6F, symSize: 0x24 }
+  - { offset: 0x9C3E0, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSampleBufferPlugin sendOutputSampleBuffer:sampleBuffer:]', symObjAddr: 0x0, symBinAddr: 0x19A93, symSize: 0xA0 }
+  - { offset: 0x9C4B3, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSampleBufferPlugin sendOutputSampleBuffer:sampleBuffer:]', symObjAddr: 0x0, symBinAddr: 0x19A93, symSize: 0xA0 }
+  - { offset: 0x9C5AA, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSampleBufferPlugin sendDidDropSampleBuffer:sampleBuffer:]', symObjAddr: 0xA0, symBinAddr: 0x19B33, symSize: 0x94 }
+  - { offset: 0x9C671, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSampleBufferPlugin onSampleBufferOutput]', symObjAddr: 0x134, symBinAddr: 0x19BC7, symSize: 0xA }
+  - { offset: 0x9C6A6, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSampleBufferPlugin setOnSampleBufferOutput:]', symObjAddr: 0x13E, symBinAddr: 0x19BD1, symSize: 0xF }
+  - { offset: 0x9C6E5, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSampleBufferPlugin onSampleBufferDrop]', symObjAddr: 0x14D, symBinAddr: 0x19BE0, symSize: 0xA }
+  - { offset: 0x9C71A, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSampleBufferPlugin setOnSampleBufferDrop:]', symObjAddr: 0x157, symBinAddr: 0x19BEA, symSize: 0xF }
+  - { offset: 0x9C759, size: 0x8, addend: 0x0, symName: '-[RGLCCameraSampleBufferPlugin .cxx_destruct]', symObjAddr: 0x166, symBinAddr: 0x19BF9, symSize: 0x28 }
+  - { offset: 0x9C7DE, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver initWithObject:keyPath:target:selector:options:]', symObjAddr: 0x0, symBinAddr: 0x19C21, symSize: 0x119 }
+  - { offset: 0x9C8A6, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver initWithObject:keyPath:target:selector:options:]', symObjAddr: 0x0, symBinAddr: 0x19C21, symSize: 0x119 }
+  - { offset: 0x9CA5C, size: 0x8, addend: 0x0, symName: '+[RGLCKeyValueObserver observeObject:keyPath:target:selector:]', symObjAddr: 0x119, symBinAddr: 0x19D3A, symSize: 0x23 }
+  - { offset: 0x9CB08, size: 0x8, addend: 0x0, symName: '+[RGLCKeyValueObserver observeObject:keyPath:target:selector:options:]', symObjAddr: 0x13C, symBinAddr: 0x19D5D, symSize: 0xA4 }
+  - { offset: 0x9CC32, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x1E0, symBinAddr: 0x19E01, symSize: 0x1F }
+  - { offset: 0x9CCA5, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver didChange:]', symObjAddr: 0x1FF, symBinAddr: 0x19E20, symSize: 0x78 }
+  - { offset: 0x9CD68, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver dealloc]', symObjAddr: 0x277, symBinAddr: 0x19E98, symSize: 0x97 }
+  - { offset: 0x9CDF6, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver target]', symObjAddr: 0x30E, symBinAddr: 0x19F2F, symSize: 0x16 }
+  - { offset: 0x9CE2D, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver setTarget:]', symObjAddr: 0x324, symBinAddr: 0x19F45, symSize: 0x11 }
+  - { offset: 0x9CE6E, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver selector]', symObjAddr: 0x335, symBinAddr: 0x19F56, symSize: 0xA }
+  - { offset: 0x9CEA3, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver setSelector:]', symObjAddr: 0x33F, symBinAddr: 0x19F60, symSize: 0xA }
+  - { offset: 0x9CEE0, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver observedObject]', symObjAddr: 0x349, symBinAddr: 0x19F6A, symSize: 0x16 }
+  - { offset: 0x9CF17, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver setObservedObject:]', symObjAddr: 0x35F, symBinAddr: 0x19F80, symSize: 0x11 }
+  - { offset: 0x9CF58, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver keyPath]', symObjAddr: 0x370, symBinAddr: 0x19F91, symSize: 0xA }
+  - { offset: 0x9CF8D, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver setKeyPath:]', symObjAddr: 0x37A, symBinAddr: 0x19F9B, symSize: 0xF }
+  - { offset: 0x9CFCC, size: 0x8, addend: 0x0, symName: '-[RGLCKeyValueObserver .cxx_destruct]', symObjAddr: 0x389, symBinAddr: 0x19FAA, symSize: 0x2F }
+...
