@@ -19,6 +19,7 @@ class FaceOO {
   var livenessResponse: LivenessResponse?
   var livenessResultsReady: Bool = false
   var similarityScore: Double?
+  var isFaceCaptured : Bool = false
   var faceCaptureResponse: FaceCaptureResponse? {
     didSet {
       faceCaptureResultsReady = faceCaptureResponse != nil
@@ -70,8 +71,17 @@ class FaceOO {
     
     FaceSDK.service.presentFaceCaptureViewController(from: presenter, animated: true) { response in
       self.faceCaptureResponse = response
+      
+      if let image = response.image?.image {
+        self.isFaceCaptured = true
+        print("Face Capture Succeeded")
+      } else {
+        self.isFaceCaptured = false
+        print("Face Capture Cancelled or Failed")
+      }
     }
   }
+
   
   func matchFace(completion: @escaping (Double?) -> Void) {
       guard let capturedImage = faceCaptureResponse?.image?.image,

@@ -35,6 +35,7 @@ struct ResultsView: View {
         showResults = false
         face.faceCaptureResponse = nil
         face.selectedImage = nil
+        face.isFaceCaptured = false
       }) {
         Text("Start Over")
           .frame(maxWidth: .infinity)

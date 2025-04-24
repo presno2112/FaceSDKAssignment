@@ -27,17 +27,17 @@ struct MainView: View {
             Button {
               face.showFaceCapture()
             } label: {
-              ActionButton(text: "Take a picture!", isPhoto: false, isActionDone: face.faceCaptureResponse != nil)
+              ActionButton(text: "Take a picture!", isPhoto: false, isActionDone: face.isFaceCaptured)
             }
-            .disabled(face.faceCaptureResponse != nil)
+            .disabled(face.isFaceCaptured)
             
             Button {
               showPhotoPicker = true
             } label: {
               ActionButton(text: "Choose a picture!", isPhoto: true, isActionDone: face.selectedImage != nil)
             }
-            .disabled(face.faceCaptureResponse == nil || face.selectedImage != nil)
-            .opacity(face.faceCaptureResponse != nil ? 1.0 : 0.5)
+            .disabled(!face.isFaceCaptured || face.selectedImage != nil)
+            .opacity(face.isFaceCaptured ? 1.0 : 0.5)
           }
           .padding()
           
@@ -45,6 +45,8 @@ struct MainView: View {
           Button {
             face.selectedImage = nil
             face.faceCaptureResponse = nil
+            face.isFaceCaptured = false
+            pickerItem = nil
             
           }label: {
             ZStack{
