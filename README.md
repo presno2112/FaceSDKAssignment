@@ -25,10 +25,11 @@ Se usó SwiftUI como base para la UI y se encapsuló la lógica del SDK en un ob
 
 ## Decisiones técnicas
 
-- La inicialización del SDK se maneja como un `Publisher`, lo que mejora la escalabilidad del código.
 - La UI desactiva los botones de forma contextual para guiar al usuario en el flujo correcto.
 - El flujo de comparación facial solo se habilita cuando ambas imágenes están presentes.
-- La lógica para `LivenessDetection` está disponible pero no se incluyó en el flujo principal, dejando espacio para futuras mejoras.
+- La inicialización del SDK se encapsuló en un `Publisher` de Combine (`initializeFace()`), lo cual permite tratar esta operación asincrónica de forma reactiva.
+- Toda la lógica relacionada con el SDK está centralizada en una clase (`FaceOO`) que actúa como un objeto observable. Esto permite que la vista sea más simple y reactiva.
+- A pesar de ser una aplicación simple, se evitó mezclar lógica de negocio directamente en la vista. Esto permite mantener un código más limpio, fácil de mantener y escalar en caso de que se quiera ampliar la app con nuevas funcionalidades, como historial de comparaciones o navegación entre pantallas.
 
 ## Mejoras posibles
 
