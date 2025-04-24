@@ -64,6 +64,12 @@ class FaceOO {
     }.store(in: &cancellables)
   }
   
+  func deinitialize(){
+    print ("deinitializing")
+    FaceSDK.service.deinitialize()
+  }
+  
+  
   func showFaceCapture() {
     guard let presenter = UIApplication.shared.rootViewController else {
       return
@@ -93,7 +99,7 @@ class FaceOO {
 
       let images = [
           MatchFacesImage(image: capturedImage, imageType: .live),
-          MatchFacesImage(image: selectedImage, imageType: .live)
+          MatchFacesImage(image: selectedImage, imageType: .external)
       ]
 
       let request = MatchFacesRequest(images: images)

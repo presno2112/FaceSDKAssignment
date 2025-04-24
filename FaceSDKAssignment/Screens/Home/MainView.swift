@@ -25,7 +25,11 @@ struct MainView: View {
         VStack {
           HStack {
             Button {
-              face.showFaceCapture()
+              face = FaceOO()
+              print("Initialized again")
+              DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                face.showFaceCapture()
+              }
             } label: {
               ActionButton(text: "Take a picture!", isPhoto: false, isActionDone: face.isFaceCaptured)
             }
@@ -43,6 +47,7 @@ struct MainView: View {
           
           
           Button {
+            face.deinitialize()
             face.selectedImage = nil
             face.faceCaptureResponse = nil
             face.isFaceCaptured = false
@@ -68,6 +73,7 @@ struct MainView: View {
                 print("No similarity score available.")
               }
             }
+            pickerItem = nil
           } label: {
             ZStack {
               RoundedRectangle(cornerRadius: 20)

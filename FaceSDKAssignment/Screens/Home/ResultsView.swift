@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FaceSDK
 
 struct ResultsView: View {
   @Binding var face: FaceOO
@@ -32,10 +33,13 @@ struct ResultsView: View {
         .padding()
 
       Button(action: {
-        showResults = false
-        face.faceCaptureResponse = nil
-        face.selectedImage = nil
-        face.isFaceCaptured = false
+        face.deinitialize()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+          showResults = false
+          face.faceCaptureResponse = nil
+          face.selectedImage = nil
+          face.isFaceCaptured = false
+        }
       }) {
         Text("Start Over")
           .frame(maxWidth: .infinity)
